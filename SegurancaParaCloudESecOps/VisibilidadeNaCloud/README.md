@@ -5,7 +5,7 @@
     - https://www.cloudconformity.com/help/organisation/cloud-accounts/add-cloud-account.html
 
 
-### A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. 
+### A documentação para a API do Cloud One Conformity: A API Pública do Conformity te permite interagir de maneira programatica com o Cloud One Conformity. 
 
     - https://cloudone.trendmicro.com/docs/conformity/api-reference/
 
@@ -77,7 +77,7 @@ gravação aos seus dados </b>
 
 <i> O Conformity remonta aos frameworks das melhores práticas para os provedores de serviços de nuvem. </i> <b> Por exemplo, para a AWS, o Well-Architected Framework constitui a base das pontuações de conformidade mostradas no Conformity, e cada regra e etapa de correção exibe claramente qual pilar ele suporta. </b>
 
-O Conformity possui a <a href="https://www.cloudconformity.com/knowledge-base/"> Knowledge Base </a>, principal catálogo de regras e controles de infraestrutura diretamente disponíveis em sua plataforma. A Knowledge Base, em constante crescimento, contém mais de 600 verificações prontas para uso que são executadas nas suas contas de nuvem e as regras simples e passo a passo de correção para corrigir eventuais falhas. Essas regras e controles abrangem a AWS e o Microsoft® Azure™, além de diretrizes de correção personalizadas.
+O Conformity possui a <a href="https://www.cloudconformity.com/knowledge-base/"> Knowledge Base </a>, principal catálogo de regras e controles de infraestrutura diretamente disponíveis em sua plataforma. A Knowledge Base, em constante crescimento, contém mais de 700 verificações prontas para uso que são executadas nas suas contas de nuvem e as regras simples e passo a passo de correção para corrigir eventuais falhas. Essas regras e controles abrangem a AWS e o Microsoft® Azure™, além de diretrizes de correção personalizadas.
 
 
 ### Adicionar uma conta da AWS no Trend Micro Cloud One:
@@ -126,6 +126,8 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 <details>
   <summary>:zap: COMO TESTAR </summary>
 
+<br />
+
 <b> COMO TESTAR: </b>
 
     1. Habilite o Monitoramento em Tempo Real;
@@ -133,6 +135,8 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
     3. Remedie com o KNOWLEDGE BASE; 
     4. (Opcional) Habilite o Auto Remediate;
     5. Escanei Templates do AWS CloudFormation para ver quais são as Recomendações de Melhores Práticas para eles;
+
+<hr />
 
 ### Monitoramente em Tempo Real de eventos que acontecem na sua conta da AWS
 
@@ -142,23 +146,25 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 <b> 2 pontos chaves são oferecidos com o add-on do RTM </b> 
 
-<a hfer="https://www.cloudconformity.com/help/real-time-threat-monitoring/activity-dashboard.html"> Activity Dashboard </a> - identifique atividades incomuns 
-<a hfref="https://www.cloudconformity.com/help/real-time-threat-monitoring/monitoring-dashboard.html"> Monitoring Dashboard </a> - Obtenha informações detalhadas de eventos em uma conta da AWS
+<a hfer="https://www.cloudconformity.com/help/real-time-threat-monitoring/activity-dashboard.html"> Activity Dashboard </a> identifique atividades incomuns 
+<a hfref="https://www.cloudconformity.com/help/real-time-threat-monitoring/monitoring-dashboard.html"> Monitoring Dashboard </a> Obtenha informações detalhadas de eventos em uma conta da AWS
 
 <b> Como Configurar o Real-Time Monitoring </b>
 
-1. Add Real-Time Monitoring add-on package to your account. You can do this:
+1. Para adicionar o add-on do Real-Time Monitoring na sua conta. Você pode fazer isso:  
 
     1. <a href="https://www.cloudconformity.com/help/add-cloud-account/add-an-aws-account.html"> Enquanto você está adicionando a sua conta no Conformity </a> 
     2. <a href="https://www.cloudconformity.com/help/organisation/subscriptions.html"> Após você adicionar a sua Conta no Conformity </a> 
 
 2. Siga as instruções para <a href="https://www.cloudconformity.com/help/real-time-threat-monitoring/real-time-threat-monitoring-settings.html"> configurar o Real-Time Monitoring </a>
 
-<img src="" alt="RTM">
+<img src="" alt="RTM"> </img>
 
     - Para saber mais:
     
         - https://www.cloudconformity.com/help/real-time-threat-monitoring.html
+
+<hr />
 
 ### Consiga receber alertas e notificações vindas do Conformity em seus canais de Comunicação
 
@@ -166,11 +172,13 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 <i> <strong> O Conformity oferece integração com múltiplas ferramentas de comunicação de terceiros e principais sistemas de ticketing. Cada um deles pode ser personalizado para criar vários canais que poderão ser configurados e te notificar ​​para ajudar a se adequar ao seu fluxo de trabalho da sua organização. </i> </strong>
 
-<img src="" alt="Lista de canais de Comunicação disponiveis">
+<img src="" alt="Lista de canais de Comunicação disponiveis"> </img>
 
     - Para saber mais:
 
         - https://www.cloudconformity.com/help/communication/communication-channels.html
+
+<hr />
 
 ### Base de Conhecimento pública com passo a passo de mais de 750 recomendações de melhores práticas
 
@@ -178,16 +186,18 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 <i> <strong> Junto com uma melhor Visibilidade, Compliance e Remediação mais rápida para sua infraestrutura em nuvem, o Conformity também tem uma <a href="https://www.cloudconformity.com/knowledge-base/"> Base de Conhecimento pública </a> com mais de 750 recomendações de melhores práticas de configuração da sua infraestrutura em nuvem para seus ambientes AWS e Azure. Fornecendo soluções simples com passo a passo para corrigir vulnerabilidades de Segurança, Desempenho, Ineficiências de Custo e Riscos de Confiabilidade. </i> </strong>
 
-<img src="" alt="Base de conhecimento">
+<img src="" alt="Base de conhecimento"> </img>
 
-<img src="" alt="Passo a Passo">
+<img src="" alt="Passo a Passo"> </img>
 
+
+<hr />
 
 ### Como manter a minha Infraestrutura Segura em Tempo Real e Automaticamente
 
 <b> AUTO-REMEDIAÇÃO! </b>
 
-<a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> fornece aos clientes a capacidade de executar Lambdas Functions prontas na sua Infraestrutura que podem remediar as falhas de Segurança e Governança em tempo real. Consulte nossa página no GitHub para uma <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions"> lista da nossas Lambdas Functions de Auto-Remediação.</a>
+<a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> fornece a você a capacidade de executar Lambdas Functions prontas na sua Infraestrutura que podem remediar as falhas de Segurança e Governança em tempo real. Consulte nossa outra página no GitHub para uma <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions"> lista da nossas Lambdas Functions de Auto-Remediação.</a>
 
 
 <img src="" alt="Auto-Remediação"> </img>
@@ -199,11 +209,13 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
     3. O Tópico SNS aciona a Lambda Function Orquestradora que por sua vez chama a Lambda Function S3 Bucket Auto-Remediate;  
     4. A função AutoRemediateS3-001 atualiza a ACL do S3 Bucket e resolve a regra que falhou fechando assim a lacuna de segurança.
 
+<hr />
+
 ### Ferramentas para testar a sua Segurança antes do deploy da sua Infraestutura:
 
 <b> TEMPLATE SCANNER! </b>
 
-<i> <strong> O Template Scanner add-on habilita você a executar as regras do Conformity nos seus Templates do AWS CloudFormation, Conformity Profiles, e Contas. Com isso, você pode adicionar controles preventivos de Segurança e Governança ao fluxo de trabalho para identificar e corrigir problemas antes de lançar quaisquer serviços e recursos. </i> </strong>
+<i> <strong> O Template Scanner add-on permite você a executar as regras do Conformity nos seus Templates do AWS CloudFormation, Conformity Profiles, e Contas. Com isso, você pode adicionar controles preventivos de Segurança e Governança ao fluxo de trabalho para identificar e corrigir problemas antes de lançar quaisquer serviços e recursos. </i> </strong>
 
 <b> Você pode usar o Template Scanner de duas maneiras: </b>
 
