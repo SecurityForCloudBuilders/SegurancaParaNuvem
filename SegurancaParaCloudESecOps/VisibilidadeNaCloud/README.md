@@ -18,15 +18,17 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 
 <i> <strong>These cloud workloads will require configuration controls and visibility into the environment. </strong> </i>
 
-<br>
+<br />
+
+<details>
+  <summary>:heart: O QUE É O CLOUD ONE - CONFORMITY: </summary>
 
 <b>O QUE É O CLOUD ONE - CONFORMITY:</b>
 
 <ul>
 
-</br>
 
-<br>
+<br />
 
 <li> Real-time visibility into security, compliance, and governance vulnerabilities on public cloud infrastructure </li>
 
@@ -57,9 +59,12 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 
 </ul>
 
-</br>
+</details>
+  <summary>:hand: COMO FUNCIONA O CONFORMITY </summary>
 
-<br>
+<br />
+
+<details>
 
 <b>COMO FUNCIONA O CONFORMITY? </b>
 
@@ -101,8 +106,7 @@ Access to Azure is provided via an Azure App registration, which provides Confor
 
     - https://www.cloudconformity.com/help/add-cloud-account/add-an-azure-account.html
 
-
-</br>
+</details>
 
 <details>
   <summary>:zap: Como Testar</summary>
