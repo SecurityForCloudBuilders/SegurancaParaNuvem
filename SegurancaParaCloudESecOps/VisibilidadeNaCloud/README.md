@@ -2,7 +2,7 @@
 
 O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode fazer uma PoC sozinho?
 
-<b>Top 5 Cloud Misconfigurations: </b>
+<b> Top 5 Cloud Misconfigurations: </b>
 
     - Storage Access;
     - Secrets Management;
@@ -16,30 +16,45 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 
     - Security and risk management leaders should evaluate and deploy offerings specifically designed for cloud security posture management. (Source: Gartner 2019)
 
-<i>These cloud workloads will require configuration controls and visibility into the environment. </i>
+<i> <strong>These cloud workloads will require configuration controls and visibility into the environment. </strong> </i>
+
+<br>
 
 <b>O QUE É O CLOUD ONE - CONFORMITY:</b>
 
 <ul>
 
-<li> Real-time visibilityinto security, compliance, and governance vulnerabilities on public cloud infrastructure </li>
+
+<li> Real-time visibility into security, compliance, and governance vulnerabilities on public cloud infrastructure </li>
 
 <li> Step-by-step remediation guides </li>
-Automated approach to security for continuous assurance
-Single pane of glass dashboard
-Full and clear visibility of entire cloud infrastructure
-Continuous checks against compliance standards and security best practices
-Extensive reporting capabilities
-700+ rules with action steps
-Manual remediation and self healing capabilities
-Real-time monitoring and alerts
-Shift security & compliance left
-Template scanning
-Powerful API
 
+<li >Automated approach to security for continuous assurance </li>
+
+<li> Single pane of glass dashboard </li>
+
+<li> Full and clear visibility of entire cloud infrastructure </li>
+
+<li> Continuous checks against compliance standards and security best practices </li>
+
+<li> Extensive reporting capabilities </li>
+
+<li> 700+ rules with action steps </li>
+
+<li> Manual remediation and self healing capabilities </li>
+
+<li> Real-time monitoring and alerts </li>
+
+<li> Shift security & compliance left </li>
+
+<li> Template scanning </li>
+
+<li> Powerful API </li>
 
 
 </ul>
+
+<br>
 
 <b>COMO FUNCIONA O CONFORMITY? </b>
 
@@ -82,6 +97,8 @@ Access to Azure is provided via an Azure App registration, which provides Confor
     - https://www.cloudconformity.com/help/add-cloud-account/add-an-azure-account.html
 
 
+<br>
+
 <b> COMO TESTAR: </b>
 
     1. Enabled Real-time monitoring
@@ -102,22 +119,23 @@ The Template Scanner add-on enables you to run Trend Micro Cloud One™ – Conf
 
 <a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> provides customers the ability to run self-healing Lambda functions on their infrastructure that can remediate security and governance failures in real-time. Refer to our GitHub page for a <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions">list of our supported auto-remediate Lambda functions.</a>
 
-<b>Como a Auto-Remediação Funciona: </b>
+<b> Como a Auto-Remediação Funciona: </b>
 
     1. Conformity identifies the risk as a rule failure
     2. Conformity sends notifications to the specified SNS Channel.
     3. SNS topic triggers the Orchestrator lambda function which in turns calls S3 bucket auto-remediate function.
     4. AutoRemediateS3-001 function updates the S3 bucket ACL and resolves the rule failure thereby closing the security gap.
 
-<b>A documentação para o Cloud Conformity encontra-se em: </b>
+## A documentação para o Cloud One - Conformity encontra-se em: 
 
     - https://www.cloudconformity.com/help/organisation/cloud-accounts/add-cloud-account.html
 
 
-<b> A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. </b>
+## A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. 
 
     - https://cloudone.trendmicro.com/docs/conformity/api-reference/
 
 
-<b>Para fazer uma Trial de 30 dias grátis do Cloud One Conformity:</b>
+## PARA FAZER UM TRIAL DE 30 DIAS GRÁTIS DO CLOUD ONE CONFORMITY E TESTAR A SEGURANÇA, CONFORMIDADE E GOVERNANÇA DA SUA INFRAESTRUTURA DA NUVEM PÚBLICA: 
+
     - https://cloudone.trendmicro.com/
