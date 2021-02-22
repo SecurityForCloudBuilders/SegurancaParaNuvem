@@ -125,6 +125,15 @@ Acesse a seguinte URL para vazar o arquivo `/etc/passwd`
     127.0.0.1:8000/social/static/?file=../../../../../../../../etc/passwd
 
 #### Testando Remote Command Execution
+
+![](rce.png)
+
 No campo "Or choose Picture from URL" adicione o seguinte conteúdo, e clique "Update Profile"
 
     ; touch evil.sh #
+
+#### Testando Malicious Upload
+Baixe o arquivo EICAR de teste de anti-virus. **Ele é um arquivo inofensivo, mas pode marcado pelo anti-virus da sua máquina como uma ameaça**
+https://secure.eicar.org/eicar.com
+
+No perfil de um usuário, faça o Upload do arquivo. 
