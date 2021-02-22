@@ -83,7 +83,16 @@ Access to Azure is provided via an Azure App registration, which provides Confor
 4. (Optional) Enabled Auto Remediate
 
 <b>A documentação para o Cloud Conformity encontra-se em: </b>
+
     - https://www.cloudconformity.com/help/organisation/cloud-accounts/add-cloud-account.html
+
+<b> A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. </b>
+
+    - https://cloudone.trendmicro.com/docs/conformity/api-reference/
+
+<b> AUTO-REMEDIAÇÃO! </b>
+
+<a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> provides customers the ability to run self-healing Lambda functions on their infrastructure that can remediate security and governance failures in real-time. Refer to our GitHub page for a <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions">list of our supported auto-remediate Lambda functions.</a>
 
 <b>Para fazer uma Trial de 30 dias grátis do Cloud One Conformity:</b>
     - https://cloudone.trendmicro.com/
