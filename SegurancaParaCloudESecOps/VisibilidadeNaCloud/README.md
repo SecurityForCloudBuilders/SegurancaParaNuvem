@@ -1,6 +1,23 @@
 # Cloud One Conformity
 
-O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode fazer uma PoC sozinho?
+## O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode fazer uma PoC sozinho?
+
+### A documentação para o Cloud One - Conformity encontra-se em: 
+
+    - https://www.cloudconformity.com/help/organisation/cloud-accounts/add-cloud-account.html
+
+
+### A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. 
+
+    - https://cloudone.trendmicro.com/docs/conformity/api-reference/
+
+
+### Para fazer um Trial de 30 dias grátis do Cloud One Conformity e testar a Segurança, Conformidade e Governança da sua Infraestrutura da Nuvem Pública:: 
+
+    - https://cloudone.trendmicro.com/
+
+<br />
+<hr />
 
 <b> Top 5 Cloud Misconfigurations: </b>
 
@@ -17,20 +34,6 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
     - Security and risk management leaders should evaluate and deploy offerings specifically designed for cloud security posture management. (Source: Gartner 2019)
 
 <i> <strong>These cloud workloads will require configuration controls and visibility into the environment. </strong> </i>
-
-### A documentação para o Cloud One - Conformity encontra-se em: 
-
-    - https://www.cloudconformity.com/help/organisation/cloud-accounts/add-cloud-account.html
-
-
-### A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. 
-
-    - https://cloudone.trendmicro.com/docs/conformity/api-reference/
-
-
-### Para fazer um Trial de 30 dias grátis do Cloud One Conformity e testar a Segurança, Conformidade e Governança da sua Infraestrutura da Nuvem Pública:: 
-
-    - https://cloudone.trendmicro.com/
 
 <br />
 <hr />
