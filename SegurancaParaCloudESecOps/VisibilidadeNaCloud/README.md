@@ -217,7 +217,7 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 <i> <strong> O Template Scanner add-on permite você a executar as regras do Conformity nos seus Templates do AWS CloudFormation, Conformity Profiles, e Contas. Com isso, você pode adicionar controles preventivos de Segurança e Governança ao fluxo de trabalho para identificar e corrigir problemas antes de lançar quaisquer serviços e recursos. </i> </strong>
 
-<b> Você pode usar o Template Scanner de duas maneiras: </b>
+<b> Você pode usar o Template Scanner de algumas maneiras: </b>
 
 1. <a href="https://www.cloudconformity.com/help/template-scanner.html#scan-via-ui">Scanning um CloudFormation Template, Profile, ou uma Account via UI; </a>
 2. <a href="https://github.com/cloudconformity/documentation-api/blob/master/TemplateScanner.md"> API do Template Scanner </a>
