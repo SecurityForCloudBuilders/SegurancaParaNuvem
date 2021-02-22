@@ -22,10 +22,9 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 
 <ul>
 
-<li>
+<li> Real-time visibilityinto security, compliance, and governance vulnerabilities on public cloud infrastructure </li>
 
-Real-time visibilityinto security, compliance, and governance vulnerabilities on public cloud infrastructure
-Step-by-step remediation guides
+<li> Step-by-step remediation guides </li>
 Automated approach to security for continuous assurance
 Single pane of glass dashboard
 Full and clear visibility of entire cloud infrastructure
@@ -38,7 +37,7 @@ Shift security & compliance left
 Template scanning
 Powerful API
 
-</li>
+
 
 </ul>
 
