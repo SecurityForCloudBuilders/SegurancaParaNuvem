@@ -24,6 +24,9 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 
 <ul>
 
+</br>
+
+<br>
 
 <li> Real-time visibility into security, compliance, and governance vulnerabilities on public cloud infrastructure </li>
 
@@ -53,6 +56,8 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 
 
 </ul>
+
+</br>
 
 <br>
 
@@ -97,7 +102,9 @@ Access to Azure is provided via an Azure App registration, which provides Confor
     - https://www.cloudconformity.com/help/add-cloud-account/add-an-azure-account.html
 
 
-<br>
+</br>
+
+<details>
 
 <b> COMO TESTAR: </b>
 
@@ -115,6 +122,7 @@ The Template Scanner add-on enables you to run Trend Micro Cloud One™ – Conf
 1. <a href="https://www.cloudconformity.com/help/template-scanner.html#scan-via-ui">Scanning a CloudFormation Template, Profile, or an Account via UI; </a>
 2. <a href="https://github.com/cloudconformity/documentation-api/blob/master/TemplateScanner.md"> Template Scanner API </a>
 
+
 <b> AUTO-REMEDIAÇÃO! </b>
 
 <a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> provides customers the ability to run self-healing Lambda functions on their infrastructure that can remediate security and governance failures in real-time. Refer to our GitHub page for a <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions">list of our supported auto-remediate Lambda functions.</a>
@@ -125,6 +133,8 @@ The Template Scanner add-on enables you to run Trend Micro Cloud One™ – Conf
     2. Conformity sends notifications to the specified SNS Channel.
     3. SNS topic triggers the Orchestrator lambda function which in turns calls S3 bucket auto-remediate function.
     4. AutoRemediateS3-001 function updates the S3 bucket ACL and resolves the rule failure thereby closing the security gap.
+
+</details>
 
 ## A documentação para o Cloud One - Conformity encontra-se em: 
 
