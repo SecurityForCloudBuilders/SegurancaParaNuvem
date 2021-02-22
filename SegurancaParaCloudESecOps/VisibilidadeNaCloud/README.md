@@ -18,6 +18,20 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 
 <i> <strong>These cloud workloads will require configuration controls and visibility into the environment. </strong> </i>
 
+### A documentação para o Cloud One - Conformity encontra-se em: 
+
+    - https://www.cloudconformity.com/help/organisation/cloud-accounts/add-cloud-account.html
+
+
+### A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. 
+
+    - https://cloudone.trendmicro.com/docs/conformity/api-reference/
+
+
+### Para fazer um Trial de 30 dias grátis do Cloud One Conformity e testar a Segurança, Conformidade e Governança da sua Infraestrutura da Nuvem Pública:: 
+
+    - https://cloudone.trendmicro.com/
+
 <br />
 
 <details>
@@ -66,26 +80,17 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 <details>
   <summary>:hand: COMO FUNCIONA O CONFORMITY </summary>
 
+
 <b>COMO FUNCIONA O CONFORMITY? </b>
 
-O Conformity usa uma política de acesso personalizada para exibir os metadados da sua conta em nuvem – não há acesso de leitura ou
-gravação aos seus dados
+O Conformity usa uma política de acesso personalizada para exibir os metadados da sua conta em nuvem – <b>não há acesso de leitura ou
+gravação aos seus dados </b>
 
-O Conformity acessa apenas os metadados associados à sua infraestrutura de cloud. Por exemplo, reconhecemos que sua conta da AWS
-possui 12 buckets do Amazon S3 e 20 instâncias do Amazon EC2. Entretanto, a Trend Micro não pode ver os dados e aplicações associados
-a esses recursos e acessa sua conta por meio da API da AWS; portanto, sua conta em nuvem não aumenta. 
+<u> O Conformity acessa apenas os metadados associados à sua infraestrutura de cloud. </u> <b> Por exemplo, reconhecemos que sua conta da AWS possui 12 buckets do Amazon S3 e 20 instâncias do Amazon EC2. Entretanto, a Trend Micro não pode ver os dados e aplicações associados a esses recursos e acessa sua conta por meio da API da AWS; portanto, sua conta em nuvem não aumenta. </b> 
 
-O Conformity remonta aos frameworks das melhores práticas para os provedores de serviços
-de nuvem. Por exemplo, para a AWS, o Well-Architected Framework constitui a base das
-pontuações de conformidade mostradas no Conformity, e cada regra e etapa de correção
-exibe claramente qual pilar ele suporta.
+<u> O Conformity remonta aos frameworks das melhores práticas para os provedores de serviços de nuvem. </u> <b> Por exemplo, para a AWS, o Well-Architected Framework constitui a base das pontuações de conformidade mostradas no Conformity, e cada regra e etapa de correção exibe claramente qual pilar ele suporta. </b>
 
-O Conformity possui a Knowledge Base, principal catálogo de regras e controles de
-infraestrutura diretamente disponíveis em sua plataforma. A Knowledge Base, em constante
-crescimento, contém mais de 600 verificações prontas para uso que são executadas nas suas
-contas de nuvem e as regras simples e passo a passo de correção para corrigir eventuais
-falhas. Essas regras e controles abrangem a AWS e o Microsoft® Azure™, além de diretrizes de
-correção personalizadas.
+O Conformity possui a <a href="https://www.cloudconformity.com/knowledge-base/"> Knowledge Base </a>, principal catálogo de regras e controles de infraestrutura diretamente disponíveis em sua plataforma. A Knowledge Base, em constante crescimento, contém mais de 600 verificações prontas para uso que são executadas nas suas contas de nuvem e as regras simples e passo a passo de correção para corrigir eventuais falhas. Essas regras e controles abrangem a AWS e o Microsoft® Azure™, além de diretrizes de correção personalizadas.
 
 
 Adicionar uma conta da AWS no Trend Micro Cloud One:
@@ -108,8 +113,9 @@ Access to Azure is provided via an Azure App registration, which provides Confor
 
 </details>
 
+
 <details>
-  <summary>:zap: Como Testar</summary>
+  <summary>:zap: COMO TESTAR </summary>
 
 <b> COMO TESTAR: </b>
 
@@ -127,6 +133,11 @@ The Template Scanner add-on enables you to run Trend Micro Cloud One™ – Conf
 1. <a href="https://www.cloudconformity.com/help/template-scanner.html#scan-via-ui">Scanning a CloudFormation Template, Profile, or an Account via UI; </a>
 2. <a href="https://github.com/cloudconformity/documentation-api/blob/master/TemplateScanner.md"> Template Scanner API </a>
 
+<b> KNOWLEDGE BASE! </b>
+
+Along with better visibility, compliance and faster remediation for your cloud infrastructure, Conformity also has a growing public library of 750+ cloud infrastructure configuration best practices for your AWS™ and Microsoft® Azure environments. Providing simple, step-by-step resolutions to rectify any security vulnerabilities, performance, cost inefficiencies, and reliability risks. This catalogue of cloud guardrails is a core part of Conformity which automatically monitors and auto-remediates cloud infrastructure.
+
+Nossa Knowledge Base é uma biblioteca em crescimento contínuo que atualmente abriga mais de 750 checagens de boas práticas do setor para sua nuvem pública, que contêm guias de correção simples e passo a passo para retificar quaisquer riscos.
 
 <b> AUTO-REMEDIAÇÃO! </b>
 
@@ -140,17 +151,3 @@ The Template Scanner add-on enables you to run Trend Micro Cloud One™ – Conf
     4. AutoRemediateS3-001 function updates the S3 bucket ACL and resolves the rule failure thereby closing the security gap.
 
 </details>
-
-### A documentação para o Cloud One - Conformity encontra-se em: 
-
-    - https://www.cloudconformity.com/help/organisation/cloud-accounts/add-cloud-account.html
-
-
-### A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. 
-
-    - https://cloudone.trendmicro.com/docs/conformity/api-reference/
-
-
-### PARA FAZER UM TRIAL DE 30 DIAS GRÁTIS DO CLOUD ONE CONFORMITY E TESTAR A SEGURANÇA, CONFORMIDADE E GOVERNANÇA DA SUA INFRAESTRUTURA DA NUVEM PÚBLICA: 
-
-    - https://cloudone.trendmicro.com/
