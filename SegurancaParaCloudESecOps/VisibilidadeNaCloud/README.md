@@ -20,19 +20,27 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 
 <b>O QUE É O CLOUD ONE - CONFORMITY:</b>
 
-• Real-time visibilityinto security, compliance, and governance vulnerabilities on public cloud infrastructure
-• Step-by-step remediation guides
-• Automated approach to security for continuous assurance
-• Single pane of glass dashboard
-• Full and clear visibility of entire cloud infrastructure
-• Continuous checks against compliance standards and security best practices
-• Extensive reporting capabilities
-• 600+ rules with action steps
-• Manual remediation and self healing capabilities
-• Real-time monitoring and alerts
-• Shift security & compliance left
-• Template scanning
-• Powerful API
+<ul>
+
+<li>
+
+Real-time visibilityinto security, compliance, and governance vulnerabilities on public cloud infrastructure
+Step-by-step remediation guides
+Automated approach to security for continuous assurance
+Single pane of glass dashboard
+Full and clear visibility of entire cloud infrastructure
+Continuous checks against compliance standards and security best practices
+Extensive reporting capabilities
+700+ rules with action steps
+Manual remediation and self healing capabilities
+Real-time monitoring and alerts
+Shift security & compliance left
+Template scanning
+Powerful API
+
+</li>
+
+</ul>
 
 <b>COMO FUNCIONA O CONFORMITY? </b>
 
@@ -77,22 +85,40 @@ Access to Azure is provided via an Azure App registration, which provides Confor
 
 <b> COMO TESTAR: </b>
 
-1. Enabled Real-time monitoring
-2. Configured a Communications Channel
-3. Configured a basic Profile
-4. (Optional) Enabled Auto Remediate
+    1. Enabled Real-time monitoring
+    2. Configured a Communications Channel
+    3. Configured a basic Profile
+    4. (Optional) Enabled Auto Remediate
+
+<b> TEMPLATE SCANNER! </b>
+
+The Template Scanner add-on enables you to run Trend Micro Cloud One™ – Conformity Rules on your AWS CloudFormation template, Conformity Profiles, and Accounts. You can add preventative security and governance controls to the workflow to identify and remediate issues prior to launching any services and resources.
+
+<b>You can use the Template Scanner in two ways: </b>
+
+1. <a href="https://www.cloudconformity.com/help/template-scanner.html#scan-via-ui">Scanning a CloudFormation Template, Profile, or an Account via UI; </a>
+2. <a href="https://github.com/cloudconformity/documentation-api/blob/master/TemplateScanner.md"> Template Scanner API </a>
+
+<b> AUTO-REMEDIAÇÃO! </b>
+
+<a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> provides customers the ability to run self-healing Lambda functions on their infrastructure that can remediate security and governance failures in real-time. Refer to our GitHub page for a <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions">list of our supported auto-remediate Lambda functions.</a>
+
+<b>Como a Auto-Remediação Funciona: </b>
+
+    1. Conformity identifies the risk as a rule failure
+    2. Conformity sends notifications to the specified SNS Channel.
+    3. SNS topic triggers the Orchestrator lambda function which in turns calls S3 bucket auto-remediate function.
+    4. AutoRemediateS3-001 function updates the S3 bucket ACL and resolves the rule failure thereby closing the security gap.
 
 <b>A documentação para o Cloud Conformity encontra-se em: </b>
 
     - https://www.cloudconformity.com/help/organisation/cloud-accounts/add-cloud-account.html
 
+
 <b> A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. </b>
 
     - https://cloudone.trendmicro.com/docs/conformity/api-reference/
 
-<b> AUTO-REMEDIAÇÃO! </b>
-
-<a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> provides customers the ability to run self-healing Lambda functions on their infrastructure that can remediate security and governance failures in real-time. Refer to our GitHub page for a <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions">list of our supported auto-remediate Lambda functions.</a>
 
 <b>Para fazer uma Trial de 30 dias grátis do Cloud One Conformity:</b>
     - https://cloudone.trendmicro.com/
