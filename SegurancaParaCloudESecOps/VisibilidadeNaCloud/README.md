@@ -33,6 +33,7 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
     - https://cloudone.trendmicro.com/
 
 <br />
+<hr />
 
 <details>
   <summary>:heart: O QUE É O CLOUD ONE - CONFORMITY: </summary>
@@ -76,6 +77,7 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 </details>
 
 <br />
+<hr />
 
 <details>
   <summary>:hand: COMO FUNCIONA O CONFORMITY </summary>
@@ -113,6 +115,8 @@ Access to Azure is provided via an Azure App registration, which provides Confor
 
 </details>
 
+<br />
+<hr />
 
 <details>
   <summary>:zap: COMO TESTAR </summary>
