@@ -1,7 +1,5 @@
 # Cloud One Conformity
 
-## O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode fazer uma PoC sozinho?
-
 ### A documentação para o Cloud One - Conformity encontra-se em: 
 
     - https://www.cloudconformity.com/help/organisation/cloud-accounts/add-cloud-account.html
@@ -12,34 +10,17 @@
     - https://cloudone.trendmicro.com/docs/conformity/api-reference/
 
 
-### Para fazer um Trial de 30 dias grátis do Cloud One Conformity e testar a Segurança, Conformidade e Governança da sua Infraestrutura da Nuvem Pública:: 
+### Para fazer um Trial de 30 dias grátis do Cloud One Conformity e testar a Segurança, Conformidade e Governança da sua Infraestrutura da Nuvem Pública:
 
     - https://cloudone.trendmicro.com/
 
-<br />
 <hr />
-
-<b> Top 5 Cloud Misconfigurations: </b>
-
-    - Storage Access;
-    - Secrets Management;
-    - Disabled Logging & Monitoring;
-    - Overly Permissive Access to Hosts, Containers and Virtual Machines;
-    - Lack of validation;
-
-<b>Cloud Security Posture Management</b>
-
-    - Server workloads in hybrid data centers spanning private and public clouds require a protection strategy different from end-user-facing devices.
-
-    - Security and risk management leaders should evaluate and deploy offerings specifically designed for cloud security posture management. (Source: Gartner 2019)
-
-<i> <strong>These cloud workloads will require configuration controls and visibility into the environment. </strong> </i>
-
 <br />
-<hr />
 
 <details>
   <summary>:heart: O QUE É O CLOUD ONE - CONFORMITY: </summary>
+
+<br />
 
 <b>O QUE É O CLOUD ONE - CONFORMITY:</b>
 
@@ -48,31 +29,31 @@
 
 <br />
 
-<li> Real-time visibility into security, compliance, and governance vulnerabilities on public cloud infrastructure </li>
+<li> Visibilidade em tempo real de Segurança, Compliance e Governança de Vulnerabilidades na sua Infraestrutura de NUvem Púlica </li>
 
-<li> Step-by-step remediation guides </li>
+<li> Um guide Passo a Passo de Remediação </li>  
 
-<li >Automated approach to security for continuous assurance </li>
+<li> Abordagem automatizada para segurança com garantia contínua </li>
 
-<li> Single pane of glass dashboard </li>
+<li> Uma Dashboard Centralizada </li>
 
-<li> Full and clear visibility of entire cloud infrastructure </li>
+<li> Visibilidade total e clara de toda a infraestrutura em nuvem </li>
 
-<li> Continuous checks against compliance standards and security best practices </li>
+<li> Verificações contínuas em relação aos padrões de conformidade e práticas recomendadas de segurança </li>
 
-<li> Extensive reporting capabilities </li>
+<li> Extensos recursos de relatórios </li>
 
-<li> 700+ rules with action steps </li>
+<li> 700+ de regras com action steps </li>
 
-<li> Manual remediation and self healing capabilities </li>
+<li> Recursos de correção manual e auto-remediação </li>
 
-<li> Real-time monitoring and alerts </li>
+<li> Monitoramento e alertas em tempo real </li>
 
 <li> Shift security & compliance left </li>
 
 <li> Template scanning </li>
 
-<li> Powerful API </li>
+<li> API Poderosa </li>
 
 
 </ul>
@@ -85,36 +66,57 @@
 <details>
   <summary>:hand: COMO FUNCIONA O CONFORMITY </summary>
 
+<br />
 
 <b>COMO FUNCIONA O CONFORMITY? </b>
 
 O Conformity usa uma política de acesso personalizada para exibir os metadados da sua conta em nuvem – <b>não há acesso de leitura ou
 gravação aos seus dados </b>
 
-<u> O Conformity acessa apenas os metadados associados à sua infraestrutura de cloud. </u> <b> Por exemplo, reconhecemos que sua conta da AWS possui 12 buckets do Amazon S3 e 20 instâncias do Amazon EC2. Entretanto, a Trend Micro não pode ver os dados e aplicações associados a esses recursos e acessa sua conta por meio da API da AWS; portanto, sua conta em nuvem não aumenta. </b> 
+<i> O Conformity acessa apenas os metadados associados à sua infraestrutura de cloud. </i> <b> Por exemplo, reconhecemos que sua conta da AWS possui 12 buckets do Amazon S3 e 20 instâncias do Amazon EC2. Entretanto, a Trend Micro não pode ver os dados e aplicações associados a esses recursos e acessa sua conta por meio da API da AWS; portanto, sua conta em nuvem não aumenta. </b> 
 
-<u> O Conformity remonta aos frameworks das melhores práticas para os provedores de serviços de nuvem. </u> <b> Por exemplo, para a AWS, o Well-Architected Framework constitui a base das pontuações de conformidade mostradas no Conformity, e cada regra e etapa de correção exibe claramente qual pilar ele suporta. </b>
+<i> O Conformity remonta aos frameworks das melhores práticas para os provedores de serviços de nuvem. </i> <b> Por exemplo, para a AWS, o Well-Architected Framework constitui a base das pontuações de conformidade mostradas no Conformity, e cada regra e etapa de correção exibe claramente qual pilar ele suporta. </b>
 
 O Conformity possui a <a href="https://www.cloudconformity.com/knowledge-base/"> Knowledge Base </a>, principal catálogo de regras e controles de infraestrutura diretamente disponíveis em sua plataforma. A Knowledge Base, em constante crescimento, contém mais de 600 verificações prontas para uso que são executadas nas suas contas de nuvem e as regras simples e passo a passo de correção para corrigir eventuais falhas. Essas regras e controles abrangem a AWS e o Microsoft® Azure™, além de diretrizes de correção personalizadas.
 
 
-Adicionar uma conta da AWS no Trend Micro Cloud One:
-
-Will create the IAM role which grants cross-account access so that Conformity can access your account. You will also need to create the Conformity policies and attach it to the IAM role. 
-
-    - https://www.cloudconformity.com/help/add-cloud-account/add-an-aws-account.html
+### Adicionar uma conta da AWS no Trend Micro Cloud One:
 
 
-Adicionar uma Subscrição da Azure:
+As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneiras:
 
-Access to Azure is provided via an Azure App registration, which provides Conformity’s Rule engine the necessary read-only permissions to run the rule checks against subscription resources you want to add to your Conformity organization.
 
-    1. Create an App registration;
+<b>Automática: </b>
+
+<b> <strong> Na maneira Automática, as contas são criadas usando AWS Cloudformation. O Template do Cloudformation do Conformity inclue a Conformity Custom Policies Parte 1 e 2 como também a criação da Stack do CloudFormation, uma IAM Role também é criada. Essa Role, por sua vez, dá acesso a cross account para que o Conformity possa acessar sua conta! <strong> </i>
+
+<img src="" alt="Modo Automatico"> </img>
+
+<b>Manual: </b>
+
+<b> <strong> Você irá precisar criar uma IAM Role na qual garante acesso cross-account para que o Conformity possa acessar a sua conta da AWS. Você também terá que criar 2 IAM Policies e anexar nessa IAM Role que criou. <strong> </i>
+
+<img src="" alt="Modo Manual"> </img>
+
+    Para saber mais :
+
+        - https://www.cloudconformity.com/help/add-cloud-account/add-an-aws-account.html
+
+
+### Adicionar uma Subscrição da Azure:
+
+<i> <strong> Acesso a Azure é fornecido via um Azure App registration, na qual permite a Engine de Regras do Conformity as permissões de somente leitura necessárias para executar as verificações de regra contra os recursos das Subscrições que você quer adicionar a sua Conta do Conformity. </i> </strong>
+
+    1. Crie um App registration;
     2. Configure Certificates and secrets;
-    3. API permissions for ActiveDirectory;
-    4. Assign access to the App registration for Subscriptions
+    3. Permissões da API para o ActiveDirectory;
+    4. Atribuir acesso ao App registration para as Subscriptions;
 
-    - https://www.cloudconformity.com/help/add-cloud-account/add-an-azure-account.html
+<img src="" alt="ADD Azure"> </img>
+
+    Para saber mais:
+
+        - https://www.cloudconformity.com/help/add-cloud-account/add-an-azure-account.html
 
 </details>
 
@@ -126,35 +128,86 @@ Access to Azure is provided via an Azure App registration, which provides Confor
 
 <b> COMO TESTAR: </b>
 
-    1. Enabled Real-time monitoring
-    2. Configured a Communications Channel
-    3. Configured a basic Profile
-    4. (Optional) Enabled Auto Remediate
+    1. Habilite o Monitoramento em Tempo Real;
+    2. Configure um Canal de Comunicação;
+    3. Remedie com o KNOWLEDGE BASE; 
+    4. (Opcional) Habilite o Auto Remediate;
+    5. Escanei Templates do AWS CloudFormation para ver quais são as Recomendações de Melhores Práticas para eles;
 
-<b> TEMPLATE SCANNER! </b>
+### Monitoramente em Tempo Real de eventos que acontecem na sua conta da AWS
 
-The Template Scanner add-on enables you to run Trend Micro Cloud One™ – Conformity Rules on your AWS CloudFormation template, Conformity Profiles, and Accounts. You can add preventative security and governance controls to the workflow to identify and remediate issues prior to launching any services and resources.
+<b> REAL-TIME MONITORING </b> 
 
-<b>You can use the Template Scanner in two ways: </b>
+<i> <strong> O Trend Micro Cloud One – Conformity oferece o Real-Time Threat Monitoring (RTM) add-on que provêm monitoramento em tempo real com Alertas instantâneos de ameaças e remediação para atividades e eventos em sua conta da AWS. </i> </strong>
 
-1. <a href="https://www.cloudconformity.com/help/template-scanner.html#scan-via-ui">Scanning a CloudFormation Template, Profile, or an Account via UI; </a>
-2. <a href="https://github.com/cloudconformity/documentation-api/blob/master/TemplateScanner.md"> Template Scanner API </a>
+<b> 2 pontos chaves são oferecidos com o add-on do RTM </b> 
+
+<a hfer="https://www.cloudconformity.com/help/real-time-threat-monitoring/activity-dashboard.html"> Activity Dashboard </a> - identifique atividades incomuns 
+<a hfref="https://www.cloudconformity.com/help/real-time-threat-monitoring/monitoring-dashboard.html"> Monitoring Dashboard </a> - Obtenha informações detalhadas de eventos em uma conta da AWS
+
+<b> Como Configurar o Real-Time Monitoring </b>
+
+1. Add Real-Time Monitoring add-on package to your account. You can do this:
+
+    1. <a href="https://www.cloudconformity.com/help/add-cloud-account/add-an-aws-account.html"> Enquanto você está adicionando a sua conta no Conformity </a> 
+    2. <a href="https://www.cloudconformity.com/help/organisation/subscriptions.html"> Após você adicionar a sua Conta no Conformity </a> 
+
+2. Siga as instruções para <a href="https://www.cloudconformity.com/help/real-time-threat-monitoring/real-time-threat-monitoring-settings.html"> configurar o Real-Time Monitoring </a>
+
+<img src="" alt="RTM">
+
+    - Para saber mais:
+    
+        - https://www.cloudconformity.com/help/real-time-threat-monitoring.html
+
+### Consiga receber alertas e notificações vindas do Conformity em seus canais de Comunicação
+
+<b> COMMUNICATION SETTINGS </b> 
+
+<i> <strong> O Conformity oferece integração com múltiplas ferramentas de comunicação de terceiros e principais sistemas de ticketing. Cada um deles pode ser personalizado para criar vários canais que poderão ser configurados e te notificar ​​para ajudar a se adequar ao seu fluxo de trabalho da sua organização. </i> </strong>
+
+<img src="" alt="Lista de canais de Comunicação disponiveis">
+
+    - Para saber mais:
+
+        - https://www.cloudconformity.com/help/communication/communication-channels.html
+
+### Base de Conhecimento pública com passo a passo de mais de 750 recomendações de melhores práticas
 
 <b> KNOWLEDGE BASE! </b>
 
-Along with better visibility, compliance and faster remediation for your cloud infrastructure, Conformity also has a growing public library of 750+ cloud infrastructure configuration best practices for your AWS™ and Microsoft® Azure environments. Providing simple, step-by-step resolutions to rectify any security vulnerabilities, performance, cost inefficiencies, and reliability risks. This catalogue of cloud guardrails is a core part of Conformity which automatically monitors and auto-remediates cloud infrastructure.
+<i> <strong> Junto com uma melhor Visibilidade, Compliance e Remediação mais rápida para sua infraestrutura em nuvem, o Conformity também tem uma <a href="https://www.cloudconformity.com/knowledge-base/"> Base de Conhecimento pública </a> com mais de 750 recomendações de melhores práticas de configuração da sua infraestrutura em nuvem para seus ambientes AWS e Azure. Fornecendo soluções simples com passo a passo para corrigir vulnerabilidades de Segurança, Desempenho, Ineficiências de Custo e Riscos de Confiabilidade. </i> </strong>
 
-Nossa Knowledge Base é uma biblioteca em crescimento contínuo que atualmente abriga mais de 750 checagens de boas práticas do setor para sua nuvem pública, que contêm guias de correção simples e passo a passo para retificar quaisquer riscos.
+<img src="" alt="Base de conhecimento">
+
+<img src="" alt="Passo a Passo">
+
+
+### Como manter a minha Infraestrutura Segura em Tempo Real e Automaticamente
 
 <b> AUTO-REMEDIAÇÃO! </b>
 
-<a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> provides customers the ability to run self-healing Lambda functions on their infrastructure that can remediate security and governance failures in real-time. Refer to our GitHub page for a <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions">list of our supported auto-remediate Lambda functions.</a>
+<a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> fornece aos clientes a capacidade de executar Lambdas Functions prontas na sua Infraestrutura que podem remediar as falhas de Segurança e Governança em tempo real. Consulte nossa página no GitHub para uma <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions"> lista da nossas Lambdas Functions de Auto-Remediação.</a>
+
+
+<img src="" alt="Auto-Remediação"> </img>
 
 <b> Como a Auto-Remediação Funciona: </b>
 
-    1. Conformity identifies the risk as a rule failure
-    2. Conformity sends notifications to the specified SNS Channel.
-    3. SNS topic triggers the Orchestrator lambda function which in turns calls S3 bucket auto-remediate function.
-    4. AutoRemediateS3-001 function updates the S3 bucket ACL and resolves the rule failure thereby closing the security gap.
+    1. O Conformity identifica o risco como uma regra que falhou;
+    2. Conformity envia uma notificação para o canal SNS especificado;
+    3. O Tópico SNS aciona a Lambda Function Orquestradora que por sua vez chama a Lambda Function S3 Bucket Auto-Remediate;  
+    4. A função AutoRemediateS3-001 atualiza a ACL do S3 Bucket e resolve a regra que falhou fechando assim a lacuna de segurança.
+
+### Ferramentas para testar a sua Segurança antes do deploy da sua Infraestutura:
+
+<b> TEMPLATE SCANNER! </b>
+
+<i> <strong> O Template Scanner add-on habilita você a executar as regras do Conformity nos seus Templates do AWS CloudFormation, Conformity Profiles, e Contas. Com isso, você pode adicionar controles preventivos de Segurança e Governança ao fluxo de trabalho para identificar e corrigir problemas antes de lançar quaisquer serviços e recursos. </i> </strong>
+
+<b> Você pode usar o Template Scanner de duas maneiras: </b>
+
+1. <a href="https://www.cloudconformity.com/help/template-scanner.html#scan-via-ui">Scanning um CloudFormation Template, Profile, ou uma Account via UI; </a>
+2. <a href="https://github.com/cloudconformity/documentation-api/blob/master/TemplateScanner.md"> API do Template Scanner </a>
 
 </details>
