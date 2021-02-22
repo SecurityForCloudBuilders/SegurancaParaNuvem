@@ -60,11 +60,11 @@ O que faz? Como faz? E pq? Como testar? Como que alguem vendo esse Repo pode faz
 </ul>
 
 </details>
-  <summary>:hand: COMO FUNCIONA O CONFORMITY </summary>
 
 <br />
 
 <details>
+  <summary>:hand: COMO FUNCIONA O CONFORMITY </summary>
 
 <b>COMO FUNCIONA O CONFORMITY? </b>
 
