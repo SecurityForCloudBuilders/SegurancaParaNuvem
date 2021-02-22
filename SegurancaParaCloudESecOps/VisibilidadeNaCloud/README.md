@@ -221,5 +221,6 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 1. <a href="https://www.cloudconformity.com/help/template-scanner.html#scan-via-ui">Scanning um CloudFormation Template, Profile, ou uma Account via UI; </a>
 2. <a href="https://github.com/cloudconformity/documentation-api/blob/master/TemplateScanner.md"> API do Template Scanner </a>
+3. <a href="https://github.com/raphabot/cloud-conformity-vscode-extension"> Cloud One Conformity VSCode Extension </a> Criado por <a href="https://github.com/raphabot"> Raphael Bottino </a>  
 
 </details>
