@@ -105,6 +105,7 @@ Access to Azure is provided via an Azure App registration, which provides Confor
 </br>
 
 <details>
+  <summary>:zap: Como Testar</summary>
 
 <b> COMO TESTAR: </b>
 
@@ -136,16 +137,16 @@ The Template Scanner add-on enables you to run Trend Micro Cloud One™ – Conf
 
 </details>
 
-## A documentação para o Cloud One - Conformity encontra-se em: 
+### A documentação para o Cloud One - Conformity encontra-se em: 
 
     - https://www.cloudconformity.com/help/organisation/cloud-accounts/add-cloud-account.html
 
 
-## A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. 
+### A documentação para a API: Conformity’s Public API allows you to programmatically interact with Cloud Conformity. 
 
     - https://cloudone.trendmicro.com/docs/conformity/api-reference/
 
 
-## PARA FAZER UM TRIAL DE 30 DIAS GRÁTIS DO CLOUD ONE CONFORMITY E TESTAR A SEGURANÇA, CONFORMIDADE E GOVERNANÇA DA SUA INFRAESTRUTURA DA NUVEM PÚBLICA: 
+### PARA FAZER UM TRIAL DE 30 DIAS GRÁTIS DO CLOUD ONE CONFORMITY E TESTAR A SEGURANÇA, CONFORMIDADE E GOVERNANÇA DA SUA INFRAESTRUTURA DA NUVEM PÚBLICA: 
 
     - https://cloudone.trendmicro.com/
