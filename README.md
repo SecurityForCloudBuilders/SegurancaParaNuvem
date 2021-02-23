@@ -2,7 +2,11 @@
 
 Como posso ter proteção para a minha Nuvem?
 
-Como ter visibilidade e compliance em tempo real na minha infraestrutura na Cloud Pública? 
+    - Para avaliar e assegurar a proteção continua dos seus assets e serviços em nuvem.
+
+Como ter visibilidade e compliance em tempo real na minha infraestrutura na Cloud Pública?
+
+- Só dar uma olhada no nosso Repositório <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/VisibilidadeNaCloud"> Visibilidade Na Cloud </a>
 
 Como ter proteção nas minhas Container Image e Cluster Kubernetes?
 
