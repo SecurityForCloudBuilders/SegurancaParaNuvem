@@ -70,14 +70,14 @@
 
 <b>COMO FUNCIONA O CONFORMITY? </b>
 
-O Conformity usa uma política de acesso personalizada para exibir os metadados da sua conta em nuvem – <b>não há acesso de leitura ou
+O Conformity usa uma política de acesso personalizada para visualizar apenas os metadados da sua conta em nuvem – <b>não há acesso de leitura ou
 gravação aos seus dados </b>
 
 <i> O Conformity acessa apenas os metadados associados à sua infraestrutura de cloud. </i> <b> Por exemplo, reconhecemos que sua conta da AWS possui 12 buckets do Amazon S3 e 20 instâncias do Amazon EC2. Entretanto, a Trend Micro não pode ver os dados e aplicações associados a esses recursos e acessa sua conta por meio da API da AWS; portanto, sua conta em nuvem não aumenta. </b> 
 
 <i> O Conformity remonta aos frameworks das melhores práticas para os provedores de serviços de nuvem. </i> <b> Por exemplo, para a AWS, o Well-Architected Framework constitui a base das pontuações de conformidade mostradas no Conformity, e cada regra e etapa de correção exibe claramente qual pilar ele suporta. </b>
 
-O Conformity possui a <a href="https://www.cloudconformity.com/knowledge-base/"> Knowledge Base </a>, principal catálogo de regras e controles de infraestrutura diretamente disponíveis em sua plataforma. A Knowledge Base, em constante crescimento, contém mais de 700 verificações prontas para uso que são executadas nas suas contas de nuvem e as regras simples e passo a passo de correção para corrigir eventuais falhas. Essas regras e controles abrangem a AWS e o Microsoft® Azure™, além de diretrizes de correção personalizadas.
+O Conformity possui a <a href="https://www.cloudconformity.com/knowledge-base/"> Knowledge Base </a>, principal catálogo de regras e controles de infraestrutura diretamente disponíveis em sua plataforma. A Knowledge Base, em constante crescimento, contém mais de 750 verificações prontas para uso que são executadas nas suas contas de nuvem e as regras simples e passo a passo de correção para corrigir eventuais falhas. Essas regras e controles abrangem a AWS e o Microsoft® Azure™, além de diretrizes de correção personalizadas.
 
 
 ### Adicionar uma conta da AWS no Trend Micro Cloud One:
@@ -88,7 +88,7 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 <b>Automática: </b>
 
-<b> <strong> Na maneira Automática, as contas são criadas usando AWS Cloudformation. O Template do Cloudformation do Conformity inclue a Conformity Custom Policies Parte 1 e 2 como também a criação da Stack do CloudFormation, uma IAM Role também é criada. Essa Role, por sua vez, dá acesso a cross account para que o Conformity possa acessar sua conta! <strong> </i>
+<b> <strong> Na maneira Automática, as contas são adicionadas usando AWS Cloudformation. O Template do Cloudformation do Conformity inclue a Conformity Custom Policies Parte 1 e 2 como também a criação da Stack do CloudFormation, uma IAM Role também é criada. Essa Role, por sua vez, dá acesso a cross account para que o Conformity possa acessar sua conta! <strong> </i>
 
 <img src="" alt="Modo Automatico"> </img>
 
@@ -105,7 +105,7 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 ### Adicionar uma Subscrição da Azure:
 
-<i> <strong> Acesso a Azure é fornecido via um Azure App registration, na qual permite a Engine de Regras do Conformity as permissões de somente leitura necessárias para executar as verificações de regra contra os recursos das Subscrições que você quer adicionar a sua Conta do Conformity. </i> </strong>
+<i> <strong> Acesso a Azure é fornecido via um Azure App registration, na qual oferece a Engine de Regras do Conformity as permissões de somente leitura necessárias para executar as verificações de regra contra os recursos das Subscrições que você quer adicionar a sua Conta do Conformity. </i> </strong>
 
     1. Crie um App registration;
     2. Configure Certificates and secrets;
@@ -134,7 +134,7 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
     2. Configure um Canal de Comunicação;
     3. Remedie com o KNOWLEDGE BASE; 
     4. (Opcional) Habilite o Auto Remediate;
-    5. Escanei Templates do AWS CloudFormation para ver quais são as Recomendações de Melhores Práticas para eles;
+    5. Escaneie Templates do AWS CloudFormation para ver quais são as Recomendações de Melhores Práticas para eles;
 
 <hr />
 
@@ -197,12 +197,14 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 <b> AUTO-REMEDIAÇÃO! </b>
 
-<a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> fornece a você a capacidade de executar Lambdas Functions prontas na sua Infraestrutura que podem remediar as falhas de Segurança e Governança em tempo real. Consulte nossa outra página no GitHub para uma <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions"> lista da nossas Lambdas Functions de Auto-Remediação.</a>
+<a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> fornece a você a capacidade de executar Lambda Functions prontas na sua Infraestrutura que podem remediar as falhas de Segurança e Governança em tempo real. Consulte nossa outra página no GitHub para uma <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions"> lista da nossas Lambdas Functions de Auto-Remediação.</a>
 
 
 <img src="" alt="Auto-Remediação"> </img>
 
 <b> Como a Auto-Remediação Funciona: </b>
+
+<i> <strong> Exemplo da Auto-Remediação agindo ao ter um S3 Bucket mal-configurado: </strong> </i>
 
     1. O Conformity identifica o risco como uma regra que falhou;
     2. Conformity envia uma notificação para o canal SNS especificado;
