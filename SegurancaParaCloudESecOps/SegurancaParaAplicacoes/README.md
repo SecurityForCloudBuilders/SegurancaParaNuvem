@@ -110,7 +110,8 @@ Para cada um dos seguintes testes, realize-o da primeira vez com a política de 
 
 #### Testando SQL Injections
 
-![](sqli.png)
+<img src="sqli.png" alt="drawing" width="75%"/>
+
 
 #### Testando Open Redirects
 
@@ -126,7 +127,8 @@ Acesse a seguinte URL para vazar o arquivo `/etc/passwd`
 
 #### Testando Remote Command Execution
 
-![](rce.png)
+<img src="rce.png" alt="drawing" width="75%"/>
+
 
 No campo "Or choose Picture from URL" adicione o seguinte conteúdo, e clique "Update Profile"
 
