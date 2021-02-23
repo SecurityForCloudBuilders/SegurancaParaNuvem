@@ -88,15 +88,15 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 <b>Automática: </b>
 
-<b> <strong> Na maneira Automática, as contas são adicionadas usando AWS Cloudformation. O Template do Cloudformation do Conformity inclue a Conformity Custom Policies Parte 1 e 2 como também a criação da Stack do CloudFormation, uma IAM Role também é criada. Essa Role, por sua vez, dá acesso a cross account para que o Conformity possa acessar sua conta! <strong> </i>
+<b> <strong> Na maneira Automática, as contas são adicionadas usando AWS Cloudformation. O Template do Cloudformation do Conformity inclue a Conformity <a href="https://www.cloudconformity.com/help/conformity-bot/aws-integration/aws-custom-policy.html"> Custom Policies </a> Parte 1 e 2 como também a criação da Stack do CloudFormation, uma IAM Role também é criada. Essa Role, por sua vez, dá acesso a cross account para que o Conformity possa acessar sua conta! <strong> </i>
 
-<img src="" alt="Modo Automatico"> </img>
+<img src="img/AWS-Automatico.png" alt="Modo Automatico" width=85%> </img>
 
 <b>Manual: </b>
 
 <b> <strong> Você irá precisar criar uma IAM Role na qual garante acesso cross-account para que o Conformity possa acessar a sua conta da AWS. Você também terá que criar 2 IAM Policies e anexar nessa IAM Role que criou. <strong> </i>
 
-<img src="" alt="Modo Manual"> </img>
+<img src="img/AWS-Manual.png" alt="Modo Manual" width=90%> </img>
 
     Para saber mais :
 
@@ -112,7 +112,7 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
     3. Permissões da API para o ActiveDirectory;
     4. Atribuir acesso ao App registration para as Subscriptions;
 
-<img src="" alt="ADD Azure"> </img>
+<img src="img/Azure-Integration.png" alt="ADD Azure"> </img>
 
     Para saber mais:
 
@@ -149,6 +149,9 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 <a hfer="https://www.cloudconformity.com/help/real-time-threat-monitoring/activity-dashboard.html"> Activity Dashboard </a> identifique atividades incomuns 
 <a hfref="https://www.cloudconformity.com/help/real-time-threat-monitoring/monitoring-dashboard.html"> Monitoring Dashboard </a> Obtenha informações detalhadas de eventos em uma conta da AWS
 
+<img src="img/RTM-1.png" alt="RTM Config" width=90%> </img>
+
+
 <b> Como Configurar o Real-Time Monitoring </b>
 
 1. Para adicionar o add-on do Real-Time Monitoring na sua conta. Você pode fazer isso:  
@@ -158,7 +161,7 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 2. Siga as instruções para <a href="https://www.cloudconformity.com/help/real-time-threat-monitoring/real-time-threat-monitoring-settings.html"> configurar o Real-Time Monitoring </a>
 
-<img src="" alt="RTM"> </img>
+<img src="img/RTM-2.png" alt="RTM" width=90%> </img>
 
     - Para saber mais:
     
@@ -172,7 +175,7 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 <i> <strong> O Conformity oferece integração com múltiplas ferramentas de comunicação de terceiros e principais sistemas de ticketing. Cada um deles pode ser personalizado para criar vários canais que poderão ser configurados e te notificar ​​para ajudar a se adequar ao seu fluxo de trabalho da sua organização. </i> </strong>
 
-<img src="" alt="Lista de canais de Comunicação disponiveis"> </img>
+<img src="img/CommunicationSettings.PNG" alt="Lista de canais de Comunicação disponiveis" width=90%> </img>
 
     - Para saber mais:
 
@@ -186,9 +189,9 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 
 <i> <strong> Junto com uma melhor Visibilidade, Compliance e Remediação mais rápida para sua infraestrutura em nuvem, o Conformity também tem uma <a href="https://www.cloudconformity.com/knowledge-base/"> Base de Conhecimento pública </a> com mais de 750 recomendações de melhores práticas de configuração da sua infraestrutura em nuvem para seus ambientes AWS e Azure. Fornecendo soluções simples com passo a passo para corrigir vulnerabilidades de Segurança, Desempenho, Ineficiências de Custo e Riscos de Confiabilidade. </i> </strong>
 
-<img src="" alt="Base de conhecimento"> </img>
+<img src="img/KB.PNG" alt="Base de conhecimento" width=90%> </img>
 
-<img src="" alt="Passo a Passo"> </img>
+<img src="img/KB-Remediation.PNG" alt="Passo a Passo" width=90%> </img>
 
 
 <hr />
@@ -200,7 +203,7 @@ As contas da AWS podem ser adicionadas ao Trend Micro Cloud One ™ duas maneira
 <a href="https://www.cloudconformity.com/help/rules/model-check/failed-check-resolution/auto-remediation.html" > Auto-Remediação </a> fornece a você a capacidade de executar Lambda Functions prontas na sua Infraestrutura que podem remediar as falhas de Segurança e Governança em tempo real. Consulte nossa outra página no GitHub para uma <a href="https://github.com/cloudconformity/auto-remediate/tree/master/functions"> lista da nossas Lambdas Functions de Auto-Remediação.</a>
 
 
-<img src="" alt="Auto-Remediação"> </img>
+<img src="img/Auto-Remediacao.png" alt="Auto-Remediação" width=90%> </img>
 
 <b> Como a Auto-Remediação Funciona: </b>
 
