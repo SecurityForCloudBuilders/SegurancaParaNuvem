@@ -147,16 +147,16 @@ O File Storage Security pode residir em qualquer região da Amazon Web Services 
     1. Escaneie um Arquivo;
     2. (Opcional) Escaneie um Arquivo já existente no 'S3 bucket to scan';
     3. Veja os Resultados do Scan no CloudWatch;
-    4. (Opcional)Seja notificado dos resultados do Scan por meio do SNS;
+    4. (Opcional) Seja notificado dos resultados do Scan por meio do SNS;
     5. (Opcional) Monitore por Arquivos Maliciosos usando o CloudWatch;
     6. (Opcional) Adicione Post-Scan Actions:
     
 
 <b> Escaneie um Arquivo </b> 
 
-Para escanear um arquivo, faça o upload para o Bucket S3 para escanear:
+Para escanear um arquivo, faça o upload para o 'S3 bucket to scan':
 
-Na AWS, vá até Services > S3 e procure pelo o seu S3 bucket para escanear.
+Na AWS, vá até Services > S3 e procure pelo o seu 'S3 bucket to scan'.
 
 Na aba de Overview, clique em "Upload" para adicionar o seu arquivo no bucket.
 
@@ -164,13 +164,13 @@ O File Storage Security detecta que um arquivo foi adicionado ao bucket e escane
 
 O File Storage Security adiciona AWS tags ao arquivo que escaneia. As Tags contêm uma breve descrição do Resultado do Scan, e começa com o prefixo fss-*.
 
-<img src="img/TagsdoFSSnoarquivo.png" alt="Tags do FSS no arquivo">
+<img src="img/TagsdoFSSnoarquivo.png" alt="Tags do FSS no arquivo"> </img>
 
 <br />
 
 <b> Escaneie um Arquivo já existente no 'S3 bucket to scan' </b> 
 
-Se você tiver arquivos existentes em seu <a href="https://cloudone.trendmicro.com/docs/file-storage-security/arch-overview/#S3BucketToScan"> S3 bucket to scan </a>, esses arquivos não serão escaneados. Para escanear eles, você terá que copiá-los de volta para o mesmo bucket ao clicar em Actions > Copy no S3. A cópia irá acionar um scan em cada arquivo.
+Se você tiver arquivos existentes em seu <a href="https://cloudone.trendmicro.com/docs/file-storage-security/arch-overview/#S3BucketToScan"> 'S3 bucket to scan' </a>, esses arquivos não serão escaneados. Para escanear eles, você terá que copiá-los de volta para o mesmo bucket ao clicar em Actions > Copy no S3. A cópia irá acionar um scan em cada arquivo.
 
 <b> Veja os Resultados do Scan no CloudWatch </b> 
 
@@ -200,6 +200,6 @@ Um exemplo de Script que procura por logs gerados pelo o <a href="https://cloudo
 
 Depois que o File Storage Security completa um Scan, o Resultado desse Scan são tagueados ao arquivo e publicado no SNS ScanResultTopic.
 
-<i> <strong> Se você quer fazer mais com os resultados, você terá que criar ou adicionar uma ação a ocorrer após o scan. Nós provemos código exemplo para que você pode enviar arquivos limpos para um S3 bucket (promote) e enviar arquivos maliciosos para outro S3 bucket (quarantine). Para mais detalhes, veja <a href="https://cloudone.trendmicro.com/docs/file-storage-security/post-scan-action-code/"> Post-scan action sample code. </a> <i> <strong> 
+<i> <strong> Se você quer fazer mais com os resultados, você terá que criar ou adicionar uma ação a ocorrer após o scan. Nós temos código exemplo para que você possa enviar arquivos limpos para um S3 bucket (promote) e enviar arquivos maliciosos para outro S3 bucket (quarantine). Para mais detalhes, veja <a href="https://cloudone.trendmicro.com/docs/file-storage-security/post-scan-action-code/"> Post-scan action sample code. </a> <i> <strong> 
 
 </details>
