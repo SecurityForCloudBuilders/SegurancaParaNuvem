@@ -13,12 +13,11 @@ Para fazer um Trial de 30 dias grátis do Cloud One - Container Security e reali
 
 <summary>:heart: O QUE É O CLOUD ONE - CONTAINER SECURITY </summary>
 <br />
-<b> O QUE É O CLOUD ONE - CONTAINER SECURITY:</b>
 <li> Garantia que as imagens de contêiner sejam executadas apenas quando atenderem aos critérios de segurança que você definir </li>
 <li> O Container Security verifica Vulnerabilidades, Malwares, Compliance (NIST, PCI, HIPAA), Segredos, Chaves, Vulnerabilidades em bibliotecas open source (python, java, go) </li>
 <br />
 <br />
-<summary>:hand: COMO FUNCIONA O CLOUD ONE - CONTAINER SECURITY</summary>:hand: 
+<summary>:hand: COMO FUNCIONA O CLOUD ONE - CONTAINER SECURITY</summary>
 <hr />
 <b> COMO TESTAR </b>
 <br />
