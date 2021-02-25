@@ -18,23 +18,28 @@ Uma solução projetada para oferecer múltiplas camadas de segurança aos princ
 - Oferece 7 módulos distintos de proteção e visiblidade
 - Detecta e bloqueia na camada de rede a exploração de vulnerabilidades conhecidas e zero-day do sistema operacional ou o aplicações em execução no servidor. 
 - Protege contra malwares conhecidos, variantes polimórficas de malwares conhecidos, e novas ameaças através de análise comportamental de processo.
-- {{**VÀRIOS OUTROS**}}
+- Registra qualquer desvio de "estado padão" em portas, processos, arquivos e chaves de registro.
+- Agrega, padroniza e filtra por criticidade Logs de sistema, segurança e aplicações. 
 - Se integra nativamente com as principais Clouds públicas, trazendo um controle centralizado e visão dinâmica de todos os seus workloads em núvem.
+- Possui integração com SIEMs
 - Oferece uma API robusta para controle programático dos seus agentes
 - Instalável através de um script que pode ser enviado à máquinas via Ansible, Chef, Puppet, SSH puro e outros.
 
 # Como? <a name="how"></a>
 
-Um agente modular é instalado no servidor. Esse agente baixa os componentes de software para cada um dos módulos
+Um agente modular é instalado no servidor. Esse agente baixa os componentes de software para cada um dos módulos, trazendo separadamente suas funcionalidades. 
+
+As integrações com as Clouds são feitas à partir de suas respectivas APIs, obtendo através de acessos de leitura, um inventário completo de máquinas rodando em suas contas. 
 
 # Por que? <a name="why"></a>
 
 - A exploração de vulnerabilidades é o principal vetor utilizado por atacantes para comprometer servidores publicamente acessíveis
-- 
 - O comprometimento de um único servidor/VM/instância pode permitir a movimentação lateral de um atacante 
-
+ 
 # Como Testar? <a name="testing"></a>
-[Leia mais sobre com testar os módulos aqui](https://success.trendmicro.com/solution/1098449-testing-the-deep-security-modules)
+Abaixo está o passo-a-passo para testar dois principais módulos de segurança do Workload Security. 
+
+[Leia mais sobre com testar os demais módulos aqui](https://success.trendmicro.com/solution/1098449-testing-the-deep-security-modules)
 
 
 
@@ -60,3 +65,48 @@ Um agente modular é instalado no servidor. Esse agente baixa os componentes de 
 
 ## Testando o Módulo de Intrusion Prevention
 
+Em `Computers`, clique duas vezes no computador sendo testado. Acesse o módulo de intrusion prevention. 
+1. Habilite-o mudando sua "Configuration" para **On**  
+2. Altere seu comportamento para **Prevent**
+3. Sob "Assigned Intrusion Prevention Rules" clique em "Assign/Unassign".
+
+![](ips.png)
+
+Na parte superior da nova tela, pesquise por "Restrict Download of EICAR" na barra de pesquisa.
+
+Assinale a regra como na foto abaixo, clique "OK" e depois "Save" para salvar a configuração.
+
+![](ips_rules.png)
+
+Essa regra está sendo aplicada ao computador. Ela irá detectar, para o protocolo HTTP especificamente, a assinatura do arquivo EICAR de testes de anti-malware e impedir que os pacotes passem da stack de rede do sistema operacional. 
+
+Tente baixar o arquivo via HTTP.
+
+    $ wget http://www.eicar.org/download/eicar.com
+
+
+O download irá falhar. Verifique os eventos de Intrusion Prevention na Janela do computador
+
+![](ips_ev.png)
+
+## Testando o Módulo de Anti-Malware
+
+Habilite o módulo de Anti-Malware, em "Real Time Scan" selecione "Aggressive Real-Time" na opção "Malware Scan Configuration" e selecione "Every Day all Day" em Schedule.
+
+Salve as alterações na configuração de segurança.
+![](am.png)
+
+Aguarde enquanto o agente recebe a atualização de política e instala os componentes de software. 
+
+Assim que o Estado do Anti-Malware estiver como "On, Real Time", tente baixar à partir da máquina de testes o arquivo do EICAR no link abaixo
+
+https://secure.eicar.org/eicar.com
+
+Uma detecção ocorrerá em Anti-Malware Events
+
+![](am_ev.png)
+
+## Integrando com as Clouds
+Dentro da tela de Computers, no botão de "Add", é possível abrir os wizards de conexão com cada uma das clouds suportadas. 
+
+![](clouds.png)
