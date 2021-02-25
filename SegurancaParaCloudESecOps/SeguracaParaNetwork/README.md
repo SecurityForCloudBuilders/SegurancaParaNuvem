@@ -59,75 +59,76 @@
 
 <b> Network Security na AWS </b>
 
-Amazon Web Services (AWS) allows you to scale your network deployment as needed without investing in hardware appliances. Network Security is offered as an <a href="https://cloudone.trendmicro.com/docs/network-security/create-ami-instance/"> Amazon Machine Image (AMI) </a> . When you decide how to deploy Network Security in your network, we recommend that you choose one of the following deployment options.
+A Amazon Web Services (AWS) permite que você dimensione o seu deploy de rede conforme necessário, sem investir em dispositivos de hardware. O Network Security é oferecida como um <a href="https://cloudone.trendmicro.com/docs/network-security/create-ami-instance/"> Amazon Machine Image (AMI) </a>. Quando você decide implementar o Network Security na sua rede, recomendamos que você escolha uma das seguintes opções de implantação.
 
-Each deployment option is a reference architecture created for different common AWS environments. Choose the option that best suits your existing network structure and inspection needs. These deployment recommendations can also be modified to suit the individual requirements for your network.
+Cada opção de implantação é uma arquitetura de referência criada para diferentes ambientes AWS comuns. Escolha a opção que melhor se adapta à sua estrutura de rede existente e às necessidades de inspeção. Essas recomendações de implantação também podem ser modificadas para atender aos requisitos individuais de sua rede.
 
     - Para saber mais sobre Recomendações de Deployment:
         - https://cloudone.trendmicro.com/docs/network-security/Deployment%20recommendations/
 
-<b> Recommended deployment options: </b>
+<b> Opções de implementações recomendadas: </b> 
 
-<a href="https://cloudone.trendmicro.com/docs/network-security/option1/"> <b> Option 1: Edge protection deployment (recommended): </b> </a> This deployment is designed to protect servers that primarily receive connections from the internet. <a href="https://trendmicro-tippingpoint.s3.amazonaws.com/documentation/pdfs/deployment_checklist_edge.pdf"> Deployment checklist. </a>
+<a href="https://cloudone.trendmicro.com/docs/network-security/option1/"> <b>  Opção 1: Edge protection deployment (recomendado): </b> </a> Esta implantação foi projetada para proteger os servidores que recebem principalmente conexões da Internet. <a href="https://trendmicro-tippingpoint.s3.amazonaws.com/documentation/pdfs/deployment_checklist_edge.pdf"> Deployment checklist. </a>
 
-This deployment option is best suited to environments that require the following:
-
-<ul> 
-
-A simple network design that protects web servers.
-
-Inspection between the VPC and the Internet as well as between the VPC and a VPN gateway.
-
-A single VPC — this deployment option does not require Transit Gateways.
-
-Third party appliance integration that follows AWS best practices.
-
-</ul>
-
-This deployment option does not indicate an IP address for the true source instance when a NAT Gateway is used.
-
-<hr />
-
-<a href="https://cloudone.trendmicro.com/docs/network-security/option2/"> <b> Option 2: Private VPC protection: </b> </a> This deployment is designed for AWS architectures that primarily send traffic from EC2 instances to the internet. <a href="https://trendmicro-tippingpoint.s3.amazonaws.com/documentation/pdfs/deployment_checklist_privateVPC.pdf"> Deployment checklist. </a>
-
-This deployment option is best suited to environments that require the following:
+Esta opção de implantação é mais adequada para ambientes que exigem o seguinte:
 
 <ul> 
 
-Full visibility into source instance and internet destination.
+<li> Um design de rede simples que protege servidores web. </li>
 
-A single set of Network Security instances that scale to thousands of workload VPCs and EC2 instances.
+<li> Inspeção entre a VPC e a Internet, bem como entre a VPC e um VPN gateway. </li>
 
-A slight variation on an AWS best practice architecture.
+<li> Única VPC - Esta opção de implantação não requer Transit Gateways. </li>
+
+<li> Integração de dispositivos de terceiros que segue as práticas recomendadas da AWS. </li>
 
 </ul>
 
-This deployment option does not inspect inbound connections. Multiple Transit Gateways are recommended to ensure high availability. <a href="https://cloudone.trendmicro.com/docs/network-security/option2/#transitgw2"> Learn more. </a>
+<i> <strong> Esta opção de implantação não indica um endereço IP para a verdadeira instância de origem quando um NAT Gateway é usado. </i> </strong>
 
 <hr />
 
-<a href="https://cloudone.trendmicro.com/docs/network-security/option3/"> <b> Option 3: Public and private VPC protection: </b> </a> This deployment is designed to inspect all traffic that originates inside or outside of your network. Traffic is inspected in a services VPC between the Internet Gateway and the Workloads VPCs, which are connected by Transit Gateways. <a href="https://trendmicro-tippingpoint.s3.amazonaws.com/documentation/pdfs/deployment_checklist_public_privateVPC.pdf"> Deployment checklist. </a>
+<a href="https://cloudone.trendmicro.com/docs/network-security/option2/"> <b> Opção 3: Private VPC protection: </b> </a> Esta implantação foi projetada para arquiteturas AWS que enviam principalmente tráfego de instâncias EC2 para a Internet. <a href="https://trendmicro-tippingpoint.s3.amazonaws.com/documentation/pdfs/deployment_checklist_privateVPC.pdf"> Deployment checklist. </a>
 
-This deployment option is best suited to environments that require the following:
+Esta opção de implantação é mais adequada para ambientes que exigem o seguinte:
+
+<ul> 
+
+<li> Visibilidade total da instância de origem e destino de internet. </li>
+
+<li> Um único conjunto de Network Security instances que escalam para milhares de <i> workload VPCs </i> e instâncias EC2. </li>
+
+<li> Uma ligeira variação em uma arquitetura de práticas recomendadas da AWS. </li>
+
+</ul>
+
+<b> Esta opção de implantação não inspeciona conexões de entrada. </b> Múltiplos Transit Gateways são recomendados para garantir alta disponibilidade. <a href="https://cloudone.trendmicro.com/docs/network-security/option2/#transitgw2"> Veja mais. </a>
+
+<hr />
+
+<a href="https://cloudone.trendmicro.com/docs/network-security/option3/"> <b> Opção 3: Public and private VPC protection: </b> </a> Esta implantação foi projetada para inspecionar todo o tráfego originado dentro ou fora de sua rede. O tráfego é inspecionado em uma VPC de serviço entre o Internet Gateway e a(s) VPCs dos Workloads, que estão conectados por Transit Gateways. <a href="https://trendmicro-tippingpoint.s3.amazonaws.com/documentation/pdfs/deployment_checklist_public_privateVPC.pdf"> Deployment checklist. </a>
+
+Esta opção de implantação é mais adequada para ambientes que exigem o seguinte:
 
 <ul>
 
-Inspection of both inbound and outbound connections.
+<li> Inspeção de ambas conexões de entrada e saída. </li>
 
-A flexible architecture that can be modified for specific environment needs.
+<li> Uma arquitetura flexível que pode ser modificada para necessidades específicas do ambiente. </li>
 
-A single set of Network Security instances that scale to thousands of workload VPCs and EC2 instances.
+<li> Um único conjunto de Network Security instances que escalam para milhares de <i> workload VPCs </i> e instâncias EC2. </li>
 
-Security and internet access control with separate VPCs, which can be owned and maintained by separate organizations.
+<li> Segurança e controle de acesso à Internet com VPCs separados, que podem pertencer e ser mantidos por organizações separadas. </li>
 
 </ul>
 
-This deployment option requires more network components, like VPCs, subnets, gateways, and route tables, than the other deployment options. Multiple Transit Gateways are recommended to ensure high availability. <a href="https://cloudone.trendmicro.com/docs/network-security/option3/#transitgw3"> Learn more. </a>
+Esta opção de implantação requer mais componentes de rede, como VPCs, subnets, gateways, e route tables, do que as outras opções de implantação. Múltiplos Transit Gateways são recomendados para garantir alta disponibilidade. <a href="https://cloudone.trendmicro.com/docs/network-security/option3/#transitgw3"> Veja mais. </a>
 
     - Para saber mais:
 
         - https://cloudone.trendmicro.com/docs/network-security/Choose%20a%20deployment%20option/
 
+<br />
 <hr />
 
 <b> Implante o Network Security instance na Microsoft Azure </b> 
