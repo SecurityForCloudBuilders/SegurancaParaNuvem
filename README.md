@@ -1,6 +1,8 @@
 # SegurancaParaNuvem
 
-Como posso ter proteção para a minha Nuvem?
+Como posso ter proteção e visilidade para a minha nuvem em um unico lugar?
+
+As perguntas abaixo estão relacionados aos desafios que a Plataforma do Cloud One ajuda a resolver.
 
     - Para avaliar e assegurar a proteção continua dos seus assets e serviços em nuvem.
 
