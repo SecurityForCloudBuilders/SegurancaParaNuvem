@@ -8,7 +8,7 @@ As perguntas abaixo estão relacionados aos desafios que a Plataforma do Cloud O
 
 Como ter visibilidade e compliance em tempo real na minha infraestrutura na Cloud Pública?
 
-- a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/VisibilidadeNaCloud"> Visibilidade Na Cloud </a>
+- <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/VisibilidadeNaCloud"> Visibilidade Na Cloud </a>
 
 Como ter proteção nas minhas Container Image e Cluster Kubernetes?
 - <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaContainer%26K8s"> SeguracaParaContainer&K8s </a> 
