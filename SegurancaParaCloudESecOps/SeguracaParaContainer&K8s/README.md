@@ -12,14 +12,16 @@ Para fazer um Trial de 30 dias grátis do Cloud One - Container Security e reali
 * https://cloudone.trendmicro.com/
 
 <b><summary>:heart: O QUE É O CLOUD ONE - CONTAINER SECURITY </summary></b>
+<br/>
 O Container Security é ferramenta que ajuda os times de segurança e desenvolvimento no compliance e segurança da imagens, impedindo potenciais vazamentos de credenciais expostas e que aplicações vulneraveis sejam colocadas em produção. Alguns recursos do Container Security:
 <li> Garantia que as imagens de contêiner sejam executadas apenas quando atenderem aos critérios de segurança que você definir.</li>
 <li> O Container Security verifica Vulnerabilidades, Malwares, Compliance (NIST, PCI, HIPAA), Segredos, Chaves, Vulnerabilidades em bibliotecas open source (python, java, go) <li> Fornece controle de implantação baseado em políticas impedindo por exemplo um container executando como root, container com permissão para escalar privilegios, bloquear 
 imagens não escaneadas além de criar exceções para imagens confiaveis.
 <br/>
-<br/>
 <b><summary>:hand: COMO FUNCIONA O CLOUD ONE - CONTAINER SECURITY</summary></b>
-<li> dsadsa </li>
+<br/> 
+<li>O Smart Check (plugin de scan de imagens) realiza uma varredura nas imagens de imagens de contêineres como parte de seu pipeline de desenvolvimento para que os desenvolvedores possam detectar e corrigir problemas de segurança no início do ciclo de vida da imagem de contêiner. Após essa analise das imagens O Container Security fornece controle de implantação baseado em políticas por meio de uma integração nativa com o Kubernetes para garantir que as implantações do Kubernetes executadas em seu ambiente de produção sejam seguras.</li>
+<li>  
 <img src="C1CS.jpg"</img>
 <b><summary>:zap: COMO TESTAR <summary></b>
 <li/> Vulnerability-and-Malware-Assessment-for-Containers https://github.com/SecurityForCloudBuilders/Vulnerability-and-Malware-Assessment-for-Containers </li>
