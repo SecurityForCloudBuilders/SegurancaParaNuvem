@@ -12,7 +12,7 @@ Para fazer um Trial de 30 dias grátis do Cloud One - Container Security e reali
 * https://cloudone.trendmicro.com/
 
 <b><summary>:heart: O QUE É O CLOUD ONE - CONTAINER SECURITY </summary></b>
-<br />
+O Container Security é ferramenta que ajuda os times de segurança e desenvolvimento no compliance e segurança da imagens, impedindo potenciais vazamentos de credenciais expostas e que aplicações vulneraveis sejam colocadas em produção. Alguns recursos do Container Security:
 <li> Garantia que as imagens de contêiner sejam executadas apenas quando atenderem aos critérios de segurança que você definir.</li>
 <li> O Container Security verifica Vulnerabilidades, Malwares, Compliance (NIST, PCI, HIPAA), Segredos, Chaves, Vulnerabilidades em bibliotecas open source (python, java, go) <li> Fornece controle de implantação baseado em políticas impedindo por exemplo um container executando como root, container com permissão para escalar privilegios, bloquear 
 imagens não escaneadas além de criar exceções para imagens confiaveis.
