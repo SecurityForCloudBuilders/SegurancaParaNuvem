@@ -20,7 +20,7 @@ imagens não escaneadas além de criar exceções para imagens confiaveis.
 <br/>
 <b><summary>:hand: COMO FUNCIONA O CLOUD ONE - CONTAINER SECURITY</summary></b>
 <li> dsadsa </li>
-<img src="C1CS" alt="Modo Automatico"> </img>
+<img src="C1CS.jpg"</img>
 <b><summary>:zap: COMO TESTAR <summary></b>
 <li/> Vulnerability-and-Malware-Assessment-for-Containers https://github.com/SecurityForCloudBuilders/Vulnerability-and-Malware-Assessment-for-Containers </li>
 <li> Vulnerable-Image-DSSC https://github.com/SecurityForCloudBuilders/Vulnerable-Image-DSSC </li>
