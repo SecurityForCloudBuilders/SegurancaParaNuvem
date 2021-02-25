@@ -21,7 +21,7 @@ imagens não escaneadas além de criar exceções para imagens confiaveis.
 <br/>
 <b><summary>:hand: COMO FUNCIONA O CLOUD ONE - CONTAINER SECURITY</summary></b>
 <br/> 
-<li>O Smart Check (plugin de scan de imagens) realiza uma varredura nas imagens de imagens de contêineres como parte de seu pipeline de desenvolvimento para que os desenvolvedores possam detectar e corrigir problemas de segurança no início do ciclo de vida da imagem de contêiner. 
+O Smart Check (plugin de scan de imagens) realiza uma varredura nas imagens de imagens de contêineres como parte de seu pipeline de desenvolvimento para que os desenvolvedores possam detectar e corrigir problemas de segurança no início do ciclo de vida da imagem de contêiner. 
 <br/>
 Após essa analise das imagens O Container Security fornece controle de implantação baseado em políticas por meio de uma integração nativa com o Kubernetes para garantir que as implantações do Kubernetes executadas em seu ambiente de produção sejam seguras.</li>
 <li>
