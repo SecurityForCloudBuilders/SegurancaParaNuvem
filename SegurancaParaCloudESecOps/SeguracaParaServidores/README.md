@@ -11,14 +11,14 @@
 4. [Como testar?](#testing)
 
 ---
-# O que é o Cloud Application Security (aka. Deep Security)? <a name="what"></a>
+# O que é o Cloud Workload Security (aka. Deep Security)? <a name="what"></a>
 Uma solução projetada para oferecer múltiplas camadas de segurança aos principais tipos de servidores - legados ou modernos, físicos ou na núvem, windows ou linux - através de um agente de segurança
 
 ## O que ele faz?
 - Oferece 7 módulos distintos de proteção e visiblidade
 - Detecta e bloqueia na camada de rede a exploração de vulnerabilidades conhecidas e zero-day do sistema operacional ou o aplicações em execução no servidor. 
 - Protege contra malwares conhecidos, variantes polimórficas de malwares conhecidos, e novas ameaças através de análise comportamental de processo.
-- Registra qualquer desvio de "estado padão" em portas, processos, arquivos e chaves de registro.
+- Registra qualquer desvio de "estado padrão" em portas, processos, arquivos e chaves de registro.
 - Agrega, padroniza e filtra por criticidade Logs de sistema, segurança e aplicações. 
 - Se integra nativamente com as principais Clouds públicas, trazendo um controle centralizado e visão dinâmica de todos os seus workloads em núvem.
 - Possui integração com SIEMs
