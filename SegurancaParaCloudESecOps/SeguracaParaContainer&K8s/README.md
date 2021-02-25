@@ -11,16 +11,16 @@ Para fazer um Trial de 30 dias grátis do Cloud One - Container Security e reali
 * https://go2.trendmicro.com/geoip/trial-168
 * https://cloudone.trendmicro.com/
 
-<summary>:heart: O QUE É O CLOUD ONE - CONTAINER SECURITY </summary>
+<b><summary>:heart: O QUE É O CLOUD ONE - CONTAINER SECURITY </summary></b>
 <br />
-<li> Garantia que as imagens de contêiner sejam executadas apenas quando atenderem aos critérios de segurança que você definir </li>
+<li> Garantia que as imagens de contêiner sejam executadas apenas quando atenderem aos critérios de segurança que você definir.</li>
 <li> O Container Security verifica Vulnerabilidades, Malwares, Compliance (NIST, PCI, HIPAA), Segredos, Chaves, Vulnerabilidades em bibliotecas open source (python, java, go) <li> Fornece controle de implantação baseado em políticas impedindo por exemplo um container executando como root, container com permissão para escalar privilegios, bloquear 
 imagens não escaneadas além de criar exceções para imagens confiaveis.
 <br/>
 <br/>
-  <n><summary>:hand: COMO FUNCIONA O CLOUD ONE - CONTAINER SECURITY</summary></n>
+<b><summary>:hand: COMO FUNCIONA O CLOUD ONE - CONTAINER SECURITY</summary></b>
 <li> dsadsa </li>
-<br/>
-<summary>:zap: COMO TESTAR <summary>
+<img src="C1CS" alt="Modo Automatico"> </img>
+<b><summary>:zap: COMO TESTAR <summary></b>
 <li/> Vulnerability-and-Malware-Assessment-for-Containers https://github.com/SecurityForCloudBuilders/Vulnerability-and-Malware-Assessment-for-Containers </li>
 <li> Vulnerable-Image-DSSC https://github.com/SecurityForCloudBuilders/Vulnerable-Image-DSSC </li>
