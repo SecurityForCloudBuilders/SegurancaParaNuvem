@@ -18,6 +18,7 @@ O Container Security é ferramenta que ajuda os times como segurança e desenvol
 <li>O Container Security verifica Vulnerabilidades, Malwares, Compliance (NIST, PCI, HIPAA), Segredos, Chaves, Vulnerabilidades em bibliotecas open source (python, java, go).
 <li> Fornece controle de implantação baseado em políticas impedindo por exemplo um container executando como root, container com permissão para escalar privilégios, bloquear imagens não escaneadas além de criar exceções para imagens confiáveis.
 <br/>
+<br/>
 <img src="DSSCDash.jpg" alt="ADD Azure"> </img>
 <b><summary>:hand: COMO FUNCIONA O CLOUD ONE - CONTAINER SECURITY</summary></b>
 <br/> 
