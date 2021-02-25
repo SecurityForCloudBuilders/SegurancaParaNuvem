@@ -199,33 +199,33 @@ Manage your virtual appliances through the Cloud One – Network Security manage
 
 <b> COMO TESTAR: </b>
 
-    1. Manage Network Security instances in your VPC using CloudWatch;
-    2. (Opcional) Set up a CloudWatch alarm;
+    1. Gerencie as instâncias do Network Security na sua VPC usando o CloudWatch;
+    2. (Opcional) Configure um alarme no CloudWatch; 
     3. (Opcional) Azure Monitor;
-    4. (Opcional) Viewing network events in Splunk;
+    4. (Opcional) Visualizando eventos de rede no Splunk; 
 
-<b> Manage Network Security instances in your VPC using CloudWatch: </b>
+<b> Gerencie as instâncias do Network Security na sua VPC usando o CloudWatch: </b>
 
-AWS CloudWatch is a tool, provided by Amazon, that enables you to manage your instances within your Amazon account. Use the CLI and the Network Security management interface in conjunction with CloudWatch to monitor and scale your Network Security instances.
+O AWS CloudWatch é uma ferramenta, fornecida pela Amazon, que permite que você gerencie suas instâncias dentro de sua conta AWS. Use o CLI e a Interface de Gerenciamento do Network Security em conjunto com o CloudWatch para monitorar e escalar a sua instância do Network Security.
 
     - Para saber mais:
         - https://cloudone.trendmicro.com/docs/network-security/Manage_Network_Security_instances/
 
 
-<b> Set up a CloudWatch alarm: </b>
+<b> Configure um alarme no CloudWatch: </b>
 
-Network Security provides the ability to publish CloudWatch metric data with information about the current state of the virtual appliance. With this metric data, set up and configure a CloudWatch alarm to activate high availability in your network environment.
+O Network Security fornece a capacidade de publicar dados de métricas do CloudWatch com a informação sobre o estado atual do Virtual Appliance. Com esses dados das métricas, defina e configure um CloudWatch alarm para ativar alta disponibilidade em seu ambiente de rede. 
 
     - Para saber mais:
         - https://cloudone.trendmicro.com/docs/network-security/CloudWatch_high_availability/
 
 <b> Azure Monitor: </b>
 
-Azure Monitor is an analytics and insights tool that monitors the operational health of your applications and provides system-wide visibility of your Network Security deployment. Azure Monitor collects metrics and logs data for your Network Security virtual appliance by monitoring IPS and inspection events. Learn more about <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/overview#:~:text=Azure%20Monitor%20maximizes%20the%20availability,cloud%20and%20on%2Dpremises%20environments.&text=Detect%20and%20diagnose%20issues%20across%20applications%20and%20dependencies%20with%20Application%20Insights."> Microsoft's Azure Monitor. </a>
+O Azure Monitor é uma ferramenta analítica e de insights que monitora a saúde operacional de seus aplicativos e fornece visibilidade da sua implementação do Network Security. Veja mais sobre o <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/overview#:~:text=Azure%20Monitor%20maximizes%20the%20availability,cloud%20and%20on%2Dpremises%20environments.&text=Detect%20and%20diagnose%20issues%20across%20applications%20and%20dependencies%20with%20Application%20Insights."> Microsoft Azure Monitor. </a>
 
-<b>  Viewing network events in Splunk: </b>
+<b>  Visualizando eventos de rede no Splunk: </b>
 
-You can configure the Network Security service so that it sends the IPS events that it generates to a Splunk server. Before starting this procedure, ensure that you have the Splunk application for Network Security installed. <a href="https://splunkbase.splunk.com/app/3532/"> Learn more. </a>
+Você pode configurar o serviço do Network Security para que ele envie os eventos de IPS que gerou para o Splunk server. Antes de iniciar este procedimento, certifique-se de ter o Splunk Application para o Network Security instalado. <a href="https://splunkbase.splunk.com/app/3532/"> Veja mais. </a>
 
     - Para saber mais:
         - https://cloudone.trendmicro.com/docs/network-security/Connect_Splunk/
