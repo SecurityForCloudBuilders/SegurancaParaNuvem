@@ -33,7 +33,7 @@ O Trend Micro Cloud One – File Storage Security provêm anti-malware scanning 
 <li> Aproveite as vantagens da verificação automatizada de malware </li>
 <li> Reputação de arquivo: Bloqueie arquivos maliciosos conhecidos com assinaturas antimalware </li>
 <li> Proteção de variantes: Procure variantes ofuscadas ou polimórficas de malware através de fragmentos de malware e algoritmos de detecção vistos anteriormente </li>
-<li> Ampla flexibilidade: Suporte de varredura confiável para arquivos pequenos a grandes e suporte para qualquer tipo de arquivo </li>
+<li> Ampla flexibilidade: Suporte de varredura confiável para arquivos pequenos à grandes e suporte para qualquer tipo de arquivo </li>
 <li> Automatiza a verificação de arquivos para ser acionada sempre que novos arquivos são carregados </li>
 <li> Rapidamente comece a utilizar ao implantar a solução utilizando templates prontos </li>
 <li> Permite a integração do workflow através de funções serverless </li>
