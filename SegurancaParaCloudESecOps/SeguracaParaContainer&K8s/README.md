@@ -14,10 +14,13 @@ Para fazer um Trial de 30 dias grátis do Cloud One - Container Security e reali
 <summary>:heart: O QUE É O CLOUD ONE - CONTAINER SECURITY </summary>
 <br />
 <li> Garantia que as imagens de contêiner sejam executadas apenas quando atenderem aos critérios de segurança que você definir </li>
-<li> O Container Security verifica Vulnerabilidades, Malwares, Compliance (NIST, PCI, HIPAA), Segredos, Chaves, Vulnerabilidades em bibliotecas open source (python, java, go) <li> Fornece controle de implantação baseado em políticas por meio de uma integração nativa com o Kubernetes
-<br />
-<br />
+<li> O Container Security verifica Vulnerabilidades, Malwares, Compliance (NIST, PCI, HIPAA), Segredos, Chaves, Vulnerabilidades em bibliotecas open source (python, java, go) <li> Fornece controle de implantação baseado em políticas impedindo por exemplo um container executando como root, container com permissão para escalar privilegios, bloquear 
+imagens não escaneadas além de criar exceções para imagens confiaveis.
+<br/>
+<br/>
 <summary>:hand: COMO FUNCIONA O CLOUD ONE - CONTAINER SECURITY</summary>
-<li> dsadsa </li> 
+<li> dsadsa </li>
+<br/>
 <summary>:zap: COMO TESTAR <summary>
-<br />
+<li/> Vulnerability-and-Malware-Assessment-for-Containers https://github.com/SecurityForCloudBuilders/Vulnerability-and-Malware-Assessment-for-Containers </li>
+<li> Vulnerable-Image-DSSC https://github.com/SecurityForCloudBuilders/Vulnerable-Image-DSSC </li>
