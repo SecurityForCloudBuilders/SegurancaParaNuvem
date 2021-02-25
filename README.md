@@ -4,8 +4,8 @@ Como posso ter proteção e visilidade para a minha nuvem em um unico lugar?
 
 As perguntas abaixo estão relacionados aos desafios que a Plataforma do Cloud One ajuda a resolver.
 
-    - Para avaliar e assegurar a proteção continua dos seus assets e serviços em nuvem.
-
+<img src="C1.jpg" alt="ADD Azure"> </img>
+  
 Como ter visibilidade e compliance em tempo real na minha infraestrutura na Cloud Pública?
 
 - <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/VisibilidadeNaCloud"> Visibilidade Na Cloud </a>
@@ -20,5 +20,3 @@ Como ter proteção contra vulnerabilidades, malware e compliance em EC2/ VM?
 Como ter proteção nos meus Files Storages na Cloud?
 
 Como ter proteção rapidamente nas VPCs & cloud network segments?
-
-<img src="C1.jpg" alt="ADD Azure"> </img>
