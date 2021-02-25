@@ -130,20 +130,20 @@ This deployment option requires more network components, like VPCs, subnets, gat
 
 <hr />
 
-<b> Deploy o Network Security instance na Microsoft Azure </b>
+<b> Implante o Network Security instance na Microsoft Azure </b> 
 
-Network Security for Azure allows you to monitor and protect your network traffic by placing Network Security virtual appliances inline in your Azure virtual environment.
+<i> <strong> O Network Security para a Azure permite monitorar e proteger seu tráfego de rede, colocando o Network Security virtual appliances inline no seu ambiente virtual da Azure  <i> <strong>
 
-Depending on the deployment option you choose, high availability is ensured using Azure Function to monitor and reroute network traffic, manually rerouting traffic rules, or by load balancers. 
+Dependendo da opção de implantação que você escolher, a alta disponibilidade é garantida usando o Azure Function para monitorar e redirecionar o tráfego de rede, redirecionando manualmente as regras de tráfego ou por <i> Load Balancers. </i>
 
-Manage your virtual appliances through the Cloud One – Network Security management interface. Use the Azure Monitor log analytics function and the command line interface to monitor the health of your web applications.
+Gerencie os seus virtual appliances através da Interface de Gerenciamento do Cloud One – Network Security. Use o Azure Monitor log analytics function e a Interface de Linha de Comando para monitorar a integridade de seus aplicativos web.
 
     - Para saber mais:
         - https://cloudone.trendmicro.com/docs/network-security/Azure_GettingStarted/
 
-<b> Deployment Options: </b>
+<b> Opções de Implantação: </b> 
 
- <b> Edge protection deployment with Azure Application Gateway: </b> To deploy internet edge protection using Azure's Application Gateway and to inspect inbound and outbound traffic. In this deployment, Azure Application Gateway is internal (internet-facing) and uses public IP addresses. This deployment uses a hub-spoke topology.
+<b> Edge protection deployment with Azure Application Gateway: </b> Para implantar Edge Protection usando o Azure Application Gateway e para inspecionar o tráfego de entrada e saída. Nessa implantação, o Azure Application Gateway é interno (voltado para a Internet) e usa endereços IP públicos. Essa implantação usa uma topologia do tipo <i> hub-spoke. </i>
 
     - Para saber mais:
 
@@ -151,41 +151,41 @@ Manage your virtual appliances through the Cloud One – Network Security manage
 
 <hr />
 
-<b> Edge protection deployment with Azure Firewall: </b> This option describes how to deploy your Network Security virtual appliance behind the Azure Firewall to provide advanced network protection. In this topology, the Hub-VNet serves as the point of connectivity to the internet. The Azure virtual appliance lives in the Hub-VNet to share its inspection capability as a service for the Spoke-VNet(s).
+<b> Edge protection deployment with Azure Firewall: </b> Esta opção descreve como implantar o seu Network Security virtual appliance atrás do Azure Firewall 
+para fornecer proteção avançada de rede. Nesta topologia, o Hub-VNet serve como ponto de conectividade com a internet. O Azure virtual appliance vive no Hub-VNet para compartilhar sua capacidade de inspeção como um serviço para o Spoke-VNet(s).
 
     - Para saber mais:
         - https://cloudone.trendmicro.com/docs/network-security/Azure_Deployment1_Firewall/
 
 <hr />
 
-<b> Private VNet protection deployment: </b> This option describes how to deploy and configure a private VNet deployment in Azure. The private VNet deployment option inspects traffic between internal networks as opposed to inbound and outbound internet traffic. Virtual networks connect through VNet Peering so they can communicate with each other. Traffic inspection will begin after the network and User Defined Routes (UDRs) are set up, and all virtual machine resources within the spoke VNets will communicate with each other through Network Security.
+<b> Private VNet protection deployment: </b> Esta opção descreve como implantar e configurar uma implementação de private VNet na Azure. A opção de implementação de private VNet inspeciona o tráfego entre redes internas em oposição ao tráfego de entrada e saída da Internet. As Virtual networks conectam-se através do VNet Peering para que eles possam se comunicar uns com os outros. Traffic inspection irá começar após a rede e User Defined Routes (UDRs) estarem configurados, e todos os recursos das VMs dentro das VNets se comunicarem entre si através do Network Security.
 
     - Para saber mais:
         - https://cloudone.trendmicro.com/docs/network-security/Azure_Deployment2_PrivateVNet/
 
 <hr />
 
-<b> Scale set private VNet protection deployment: </b> This option describes how to deploy a scale set of virtual appliances using the private VNet deployment. Deploying a scale set behind the Azure Load Balancer provides additional layers of availability which translates to minimal disruption if a virtual appliance experiences an outage.
+<b> Scale set private VNet protection deployment: </b> Esta opção descreve como implantar um scale set de Virtual Appliances usando a implementação de Private VNet. Implementando um scale set atrás do Azure Load Balancer fornece camadas adicionais de disponibilidade que se traduzem em interrupção mínima se um Virtual Appliance experimenta uma interrupção. 
 
     - Para saber mais:
         - https://cloudone.trendmicro.com/docs/network-security/Azure_Deployment3_VMSS/
         
 <hr />
 
-<b> Scale set private VNet protection with Azure Firewall deployment: </b> This option describes how to deploy a scale set of virtual appliances behind the Azure Firewall to provide advanced network protection. Deploying a scale set behind the Azure Load Balancer provides additional layers of availability which translates to minimal disruption if a virtual appliance experiences an outage.
+<b> Scale set private VNet protection with Azure Firewall deployment: </b> Essa opção descreve como implantar um scale set de Virtual Appliance atrás do Azure Firewall para fornecer proteção avançada de rede. Implantando um scale set atrás de um Azure Load Balancer fornece camadas adicionais de disponibilidade que se traduzem em interrupção mínima se um Virtual Appliance experimenta uma interrupção.
 
     - Para saber mais:
         - https://cloudone.trendmicro.com/docs/network-security/Azure_Deployment4_VMSS_Firewall/
 
 <hr />
 
-<b> Scale set edge deployment with Application Gateway: </b> This option describes how to deploy a scale set of virtual appliances with an Azure Application Gateway. The Application Gateway allows you to manage web application traffic. <a href="https://docs.microsoft.com/en-us/azure/application-gateway/overview"> Learn more. </a>
+<b> Scale set edge deployment com Application Gateway: </b>Esta opção descreve como implantar um scale set de um Virtual Appliance com um Azure Application Gateway. O Application Gateway permite que você gerencie o tráfego de aplicações web. <a href="https://docs.microsoft.com/en-us/azure/application-gateway/overview"> Veja mais. </a>
 
     - Para saber mais:
         - https://cloudone.trendmicro.com/docs/network-security/Azure_Deployment5_VMSS_AGW/
 
-
-<i> <strong> <a href="https://cloudone.trendmicro.com/docs/network-security/Azure_high_availability/"> High availability (HA) </a> prevents network service disruption after a failure stops your virtual appliance from inspecting traffic. </strong> </i>
+<i> <strong> <a href="https://cloudone.trendmicro.com/docs/network-security/Azure_high_availability/"> Alta Disponibilidade </a> evita a interrupção do serviço de rede após uma falha que impede o seu Virtual Appliance de inspecionar o tráfego. </strong> </i>
 
 </details>
 
