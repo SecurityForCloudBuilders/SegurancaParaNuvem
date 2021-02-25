@@ -24,8 +24,8 @@ imagens não escaneadas além de criar exceções para imagens confiaveis.
 O Smart Check (plugin de scan de imagens) realiza uma varredura nas imagens de imagens de contêineres como parte de seu pipeline de desenvolvimento para que os desenvolvedores possam detectar e corrigir problemas de segurança no início do ciclo de vida da imagem de contêiner. 
 <br/>
 <br/>
-Após essa analise das imagens O Container Security fornece controle de implantação baseado em políticas por meio de uma integração nativa com o Kubernetes para garantir que as implantações do Kubernetes executadas em seu ambiente de produção sejam seguras.</li>
-<li>
+Após essa analise das imagens O Container Security fornece controle de implantação baseado em políticas por meio de uma integração nativa com o Kubernetes para garantir que as implantações do Kubernetes executadas em seu ambiente de produção sejam seguras.
+
 <img src="C1CS.jpg"</img>
 <br/>
 <summary>:zap: COMO TESTAR <summary>
