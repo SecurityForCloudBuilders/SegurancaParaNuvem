@@ -18,6 +18,7 @@ O Container Security é ferramenta que ajuda os times de segurança e desenvolvi
 <li> O Container Security verifica Vulnerabilidades, Malwares, Compliance (NIST, PCI, HIPAA), Segredos, Chaves, Vulnerabilidades em bibliotecas open source (python, java, go) <li> Fornece controle de implantação baseado em políticas impedindo por exemplo um container executando como root, container com permissão para escalar privilegios, bloquear 
 imagens não escaneadas além de criar exceções para imagens confiaveis.
 <br/>
+<br/>
 <b><summary>:hand: COMO FUNCIONA O CLOUD ONE - CONTAINER SECURITY</summary></b>
 <br/> 
 <li>O Smart Check (plugin de scan de imagens) realiza uma varredura nas imagens de imagens de contêineres como parte de seu pipeline de desenvolvimento para que os desenvolvedores possam detectar e corrigir problemas de segurança no início do ciclo de vida da imagem de contêiner. 
