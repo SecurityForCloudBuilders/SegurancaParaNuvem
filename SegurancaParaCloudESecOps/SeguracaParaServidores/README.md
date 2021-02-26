@@ -23,13 +23,24 @@ Uma solução projetada para oferecer múltiplas camadas de segurança aos princ
 - Se integra nativamente com as principais Clouds públicas, trazendo um controle centralizado e visão dinâmica de todos os seus workloads em núvem.
 - Possui integração com SIEMs
 - Oferece uma API robusta para controle programático dos seus agentes
-- Instalável através de um script que pode ser enviado à máquinas via Ansible, Chef, Puppet, SSH puro e outros.
+- Instalável através de um scripts Bash / Powershell, além de pacotes e instaladores tradicionais
 
 # Como? <a name="how"></a>
 
 Um agente modular é instalado no servidor. Esse agente baixa os componentes de software para cada um dos módulos, trazendo separadamente suas funcionalidades. 
 
 As integrações com as Clouds são feitas à partir de suas respectivas APIs, obtendo através de acessos de leitura, um inventário completo de máquinas rodando em suas contas. 
+
+## Como automatizar?
+Existem várias opções para automatizar o deployment e configuração do Workload Security que permitem que ele se encaixe perfeitamente em ambientes altamente dinâmicos e com scaling automático. Algumas opções possíveis são:
+
+- Pré-instalar o agente de segurança em uma Golden Image que utilizada pelos servidores. 
+- Colocar o script de instalação como opção de bootstrap de uma instância/VM
+- Integrar o Workload Security com o **AWS Systems Manager Distributor** para fazer deploy automático do Agente de segurança. [Leia mais aqui](https://cloudone.trendmicro.com/docs/workload-security/aws-systems-manager/)
+- Configurar a instalação em um Virtual Machine Scale Set (VMSS) da Azure. [Leia mais aqui](https://cloudone.trendmicro.com/docs/workload-security/azure-vmss/)
+- Fazer o deploy do agente via Ansible, Chef, Puppet, SSH puro ou outras ferramentas.
+- Adicione automaticamente toda conta criada pela AWS Control Tower Account Factory. [Leia mais aqui](https://cloudone.trendmicro.com/docs/workload-security/aws-control-tower/)
+- Utilize a API RESTful e os SDKs para automatizar as configurações de segurança em seus agentes. [Leia mais aqui](https://cloudone.trendmicro.com/docs/workload-security/api-first-steps/)
 
 # Por que? <a name="why"></a>
 
