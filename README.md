@@ -30,6 +30,7 @@ Como ter proteção rapidamente nas VPCs & cloud network segments?
  
 - Consigo prever que é aqui que você quer ver: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaNetwork"> SeguracaParaNetwork </a>
 
-Sobre as limitiações:
+</br>
+Sobre as limitações:
 A plataforma não tem limitação de uso de recursos durante os 30 dias.
 Em caso de dúvidas estamos a disposição.
