@@ -1,14 +1,18 @@
 # SegurancaParaNuvem
 
-Como posso ter proteção para a minha Nuvem?
+Como posso ter proteção e visilidade para a minha nuvem em um unico lugar?
 
-    - Para avaliar e assegurar a proteção continua dos seus assets e serviços em nuvem.
+As perguntas abaixo estão relacionados aos desafios que a Plataforma do Cloud One ajuda a resolver.
 
+<img src="C1.jpg" alt="ADD Azure" width="65%"> </img>
+  
 Como ter visibilidade e compliance em tempo real na minha infraestrutura na Cloud Pública?
 
-- Só dar uma olhada aqui <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/VisibilidadeNaCloud"> Visibilidade Na Cloud </a>
+- Só dar uma olhada aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/VisibilidadeNaCloud"> Visibilidade Na Cloud </a>
 
 Como ter proteção nas minhas Container Image e Cluster Kubernetes?
+
+- Venha ver aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaContainer%26K8s"> SeguracaParaContainer&K8s </a> 
 
 Como ter proteção em tempo real nas minhas Aplicações Web?
 
