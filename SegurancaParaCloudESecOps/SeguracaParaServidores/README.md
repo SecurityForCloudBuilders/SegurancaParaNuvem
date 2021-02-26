@@ -16,7 +16,7 @@ Uma solução projetada para oferecer múltiplas camadas de segurança aos princ
 
 ## O que ele faz?
 - Oferece 7 módulos distintos de proteção e visiblidade
-- Detecta e bloqueia na camada de rede a exploração de vulnerabilidades conhecidas e zero-day do sistema operacional ou o aplicações em execução no servidor. 
+- Realiza o virtual patching impedindo a exploração de vulnerabilidades do sistema operacional ou nas aplicações em execução no servidor
 - Protege contra malwares conhecidos, variantes polimórficas de malwares conhecidos, e novas ameaças através de análise comportamental de processo.
 - Registra qualquer desvio de "estado padrão" em portas, processos, arquivos e chaves de registro.
 - Agrega, padroniza e filtra por criticidade Logs de sistema, segurança e aplicações. 
