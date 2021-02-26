@@ -1,13 +1,21 @@
 # Cloud One Application Security
 
-1. [O que faz?](#what)
+### Links
+- [Documentação para o Cloud One Application Security](https://cloudone.trendmicro.com/docs/application-security/)
+- [Documentação para a API Pública do Cloud One Application Security](https://cloudone.trendmicro.com/docs/application-security/api-reference/)
+- [Para fazer um Trial de 30 dias grátis do Cloud One e testar a visibilidade e segurança em tempo real em suas aplicações](https://cloudone.trendmicro.com/)
+
+### Índice
+1. [O que é?](#what)
 2. [Como ?](#how)
 3. [Por que?](#why)
 4. [Como testar?](#testing)
 
 ---
 
-# O que faz? <a name="what"></a>
+# O que é o Cloud Application Security? <a name="what"></a>
+Uma solução para embutir camadas de segurança diretamente em sua aplicação web ou função serverless, sem alterar seu código.
+## O que ele faz?
 * Oferece segurança em tempo de execução para aplicações web e funções serverless
 * Protege contra vulnerabilidades OWASP Top 10 e outros
 * Protege contra vulnerabilidades zero-day
