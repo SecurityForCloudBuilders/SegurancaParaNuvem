@@ -61,7 +61,7 @@
 
 A Amazon Web Services (AWS) permite que você dimensione o seu deploy de rede conforme necessário, sem investir em dispositivos de hardware. O Network Security é oferecida como um <a href="https://cloudone.trendmicro.com/docs/network-security/create-ami-instance/"> Amazon Machine Image (AMI) </a>. Quando você decide implementar o Network Security na sua rede, recomendamos que você escolha uma das seguintes opções de implantação.
 
-Cada opção de implantação é uma arquitetura de referência criada para diferentes ambientes AWS comuns. Escolha a opção que melhor se adapta à sua estrutura de rede existente e às necessidades de inspeção. Essas recomendações de implantação também podem ser modificadas para atender aos requisitos individuais de sua rede.
+Cada opção de implantação é uma arquitetura de referência criada para diferentes cenários comuns na AWS. Escolha a opção que melhor se adapta à sua estrutura de rede existente e às necessidades de inspeção. Essas recomendações de implantação também podem ser modificadas para atender aos requisitos individuais de sua rede.
 
     - Para saber mais sobre Recomendações de Deployment:
         - https://cloudone.trendmicro.com/docs/network-security/Deployment%20recommendations/
@@ -88,7 +88,7 @@ Esta opção de implantação é mais adequada para ambientes que exigem o segui
 
 <hr />
 
-<a href="https://cloudone.trendmicro.com/docs/network-security/option2/"> <b> Opção 3: Private VPC protection: </b> </a> Esta implantação foi projetada para arquiteturas AWS que enviam principalmente tráfego de instâncias EC2 para a Internet. <a href="https://trendmicro-tippingpoint.s3.amazonaws.com/documentation/pdfs/deployment_checklist_privateVPC.pdf"> Deployment checklist. </a>
+<a href="https://cloudone.trendmicro.com/docs/network-security/option2/"> <b> Opção 2: Private VPC protection: </b> </a> Esta implantação foi projetada para arquiteturas AWS que enviam principalmente tráfego de instâncias EC2 para a Internet. <a href="https://trendmicro-tippingpoint.s3.amazonaws.com/documentation/pdfs/deployment_checklist_privateVPC.pdf"> Deployment checklist. </a>
 
 Esta opção de implantação é mais adequada para ambientes que exigem o seguinte:
 
@@ -133,7 +133,7 @@ Esta opção de implantação requer mais componentes de rede, como VPCs, subnet
 
 <b> Implante o Network Security instance na Microsoft Azure </b> 
 
-<i> <strong> O Network Security para a Azure permite monitorar e proteger seu tráfego de rede, colocando o Network Security virtual appliances inline no seu ambiente virtual da Azure  <i> <strong>
+<i> <strong> O Network Security para a Azure permite monitorar e proteger seu tráfego de rede, colocando o Network Security virtual appliances inline no seu ambiente virtual da Azure  </i> </strong>
 
 Dependendo da opção de implantação que você escolher, a alta disponibilidade é garantida usando o Azure Function para monitorar e redirecionar o tráfego de rede, redirecionando manualmente as regras de tráfego ou por <i> Load Balancers. </i>
 
