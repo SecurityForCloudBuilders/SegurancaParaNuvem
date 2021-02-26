@@ -16,10 +16,16 @@ Como ter proteção nas minhas Container Image e Cluster Kubernetes?
 
 Como ter proteção em tempo real nas minhas Aplicações Web?
 
+O que procura encontra-se aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SegurancaParaAplicacoes"> SegurancaParaAplicacoes </a>
+
 Como ter proteção contra vulnerabilidades, malware e compliance em EC2/ VM?
+
+Venha ver aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaServidores">  </a>
 
 Como ter proteção nos meus Files Storages na Cloud?
 
 - Enquanto toma um café, leia mais aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaFileStorage"> SeguracaParaFileStorage </a>
 
 Como ter proteção rapidamente nas VPCs & cloud network segments?
+ 
+- Consigo prever que é aqui que você quer ver: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaNetwork"> SeguracaParaNetwork </a>
