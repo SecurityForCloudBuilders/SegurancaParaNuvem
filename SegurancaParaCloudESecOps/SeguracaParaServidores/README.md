@@ -57,7 +57,7 @@ Abaixo está o passo-a-passo para testar dois principais módulos de segurança 
 ## Pré-Requisitos
 - Uma conta gratuita em https://cloudone.trendmicro.com 
 - Um servidor compatível com o agente de segurança
-  - Verifique requisitos mínimos de Hardware [aqui](https://cloudone.trendmicro.com/docs/workload-security/sizing/). **Não** usaremos relays nesse teste
+  - Verifique requisitos mínimos de Hardware [aqui](https://cloudone.trendmicro.com/docs/workload-security/sizing/). Um [Relay](https://cloudone.trendmicro.com/docs/workload-security/relay-quick/) é um agente que é configurado para redistribuir Software do Workload Security e Updates de Segurança para outros agentes. **Não** usaremos relays nesse teste.
   - Verifique a compatiblidade do Sistema Operacional onde o agente será instalado, [aqui](https://cloudone.trendmicro.com/docs/workload-security/agent-compatibility/)
   - Se a máquina for **Linux**, verifique se o Kernel é suportado pelo agente de segurança [aqui](https://cloudone.trendmicro.com/docs/workload-security/agent-linux-kernel-support/)
 - O servidor deverá ser capaz de se comunicar via **HTTPS** com os domínios da Trend Micro. Saiba mais [aqui](https://cloudone.trendmicro.com/docs/workload-security/communication-ports-urls-ip/)
