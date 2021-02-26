@@ -204,6 +204,7 @@ para fornecer proteção avançada de rede. Nesta topologia, o Hub-VNet serve co
     2. (Opcional) Configure um alarme no CloudWatch; 
     3. (Opcional) Azure Monitor;
     4. (Opcional) Visualizando eventos de rede no Splunk; 
+    5. (Opcional) CloudWatchDashboardC1NS;
 
 <b> Gerencie as instâncias do Network Security na sua VPC usando o CloudWatch: </b>
 
@@ -230,5 +231,9 @@ Você pode configurar o serviço do Network Security para que ele envie os event
 
     - Para saber mais:
         - https://cloudone.trendmicro.com/docs/network-security/Connect_Splunk/
+
+<b> CloudWatchDashboardC1NS: </b>
+
+<i> <strong> Um exemplo de dashboard para monitorar o tráfego de rede utilizando o Cloud One Network Security. </i> </strong> <a href="https://github.com/SecurityForCloudBuilders/CloudWatchDashboardC1NS"> Veja mais aqui! </a>
 
 </details>
