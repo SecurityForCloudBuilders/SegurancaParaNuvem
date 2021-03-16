@@ -149,7 +149,8 @@ O File Storage Security pode residir em qualquer região da Amazon Web Services 
     3. Veja os Resultados do Scan no CloudWatch;
     4. (Opcional) Seja notificado dos resultados do Scan por meio do SNS;
     5. (Opcional) Monitore por Arquivos Maliciosos usando o CloudWatch;
-    6. (Opcional) Adicione Post-Scan Actions:
+    6. (Opcional) Integre rapidamente e de maneira automatizada a segurança em seus buckets S3 usando o Github Actions;
+    7. (Opcional) Adicione rapidamente e automaticamente o Post-Scan Actions:
     
 
 <b> Escaneie um Arquivo </b> 
@@ -195,11 +196,16 @@ Um exemplo de Script que procura por logs gerados pelo o <a href="https://cloudo
 
         - https://cloudone.trendmicro.com/docs/file-storage-security/scan-tag-overview/#Monitor
 
+<b> Integrando rapidamente mais segurança aos seus buckets S3 com o Github Actions </b>
+
+<i> <strong> Faça o deploy da Stack do File Storage Security rapidamente ao utilizar o <a href="https://github.com/SecurityForCloudBuilders/FSS-Stack-Deploy-Automatizado"> Github Actions </a> </i> </strong>   
 
 <b> Adicione Post-Scan Actions: </b>
 
 Depois que o File Storage Security completa um Scan, o Resultado desse Scan são tagueados ao arquivo e publicado no SNS ScanResultTopic.
 
 <i> <strong> Se você quer fazer mais com os resultados, você terá que criar ou adicionar uma ação a ocorrer após o scan. Nós temos código exemplo para que você possa enviar arquivos limpos para um S3 bucket (promote) e enviar arquivos maliciosos para outro S3 bucket (quarantine). Para mais detalhes, veja <a href="https://cloudone.trendmicro.com/docs/file-storage-security/post-scan-action-code/"> Post-scan action sample code. </a> <i> <strong> 
+
+<b> Ou pode fazer isso mais rapidamente e automaticamente utilizando o <a href="https://github.com/SecurityForCloudBuilders/FSS-Stack-Deploy-Automatizado"> Github Actions. </a> </b>
 
 </details>
