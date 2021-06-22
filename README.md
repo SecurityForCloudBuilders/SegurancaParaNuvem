@@ -33,7 +33,7 @@ Como ter proteção rapidamente nas VPCs & cloud network segments?
 Como garantir minha entrega contínua e segura do meu código ao analisar as minhas dependências?
 
 - Vossa Excelência pode achar aqui: <a 
-href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaCodigo"> SegurancaParaCodigo </a>
+href=https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SegurancaParaCodigo"> SegurancaParaCodigo </a>
 
 </br>
 Sobre as limitações:
