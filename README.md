@@ -12,7 +12,7 @@ Como ter visibilidade e compliance em tempo real na minha infraestrutura na Clou
 
 Como ter proteção nas minhas Container Image e Cluster Kubernetes?
 
-- Venha ver aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaContainer%26K8s"> SeguracaParaContainer&K8s </a> 
+- Venha ver aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaContainer%26K8s"> SegurancaParaContainer&K8s </a> 
 
 Como ter proteção em tempo real nas minhas Aplicações Web?
 
@@ -20,15 +20,20 @@ Como ter proteção em tempo real nas minhas Aplicações Web?
 
 Como ter proteção contra vulnerabilidades, malware e compliance em EC2/ VM?
 
-- Venha ver aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaServidores"> SeguracaParaServidores </a>
+- Venha ver aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaServidores"> SegurancaParaServidores </a>
 
 Como ter proteção nos meus Files Storages na Cloud?
 
-- Enquanto toma um café, leia mais aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaFileStorage"> SeguracaParaFileStorage </a>
+- Enquanto toma um café, leia mais aqui: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaFileStorage"> SegurancaParaFileStorage </a>
 
 Como ter proteção rapidamente nas VPCs & cloud network segments?
  
-- Consigo prever que é aqui que você quer ver: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaNetwork"> SeguracaParaNetwork </a>
+- Consigo prever que é aqui que você quer ver: <a href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaNetwork"> SegurancaParaNetwork </a>
+
+Como garantir minha entrega contínua e segura do meu código ao analisar as minhas dependências?
+
+- Vossa Excelência pode achar aqui: <a 
+href="https://github.com/SecurityForCloudBuilders/SegurancaParaNuvem/tree/main/SegurancaParaCloudESecOps/SeguracaParaCodigo"> SegurancaParaCodigo </a>
 
 </br>
 Sobre as limitações:
