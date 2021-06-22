@@ -120,4 +120,4 @@ Uma detecção ocorrerá em Anti-Malware Events
 ## Integrando com as Clouds
 Dentro da tela de Computers, no botão de "Add", é possível abrir os wizards de conexão com cada uma das clouds suportadas. 
 
-![](clouds.png)
+![](connector.png)
